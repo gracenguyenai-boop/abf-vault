@@ -1,0 +1,18 @@
+# Obsidian workspace state (per-device, không cần sync)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+
+# Obsidian plugins (install separately)
+.obsidian/plugins/
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Temp files
+*.tmp
+*.bak
+
+# Agent cache (nếu có)
+.agent/cache/
