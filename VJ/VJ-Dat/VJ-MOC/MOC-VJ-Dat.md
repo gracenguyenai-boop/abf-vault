@@ -97,6 +97,40 @@ Feed Loop     → VJ-01-Atomic/insight/insight-[date]-[case].md
 
 ---
 
+## Scripts — Trong Xe Ô Tô (10 scripts) — 2026-01 đến 2026-04
+
+| Script | Chủ đề |
+|---|---|
+| [[VJ-Dat/scripts/trong-xe-o-to/2026-04-23-txot-vay-3-ben-lang-nhang-mat-tien-coc]] | Vay 3 bên — cọc 1 tỷ đòi sang tên ngay, chưa có cam kết giải ngân = nguy cơ mất nhà |
+| [[VJ-Dat/scripts/trong-xe-o-to/2026-04-13-txot-top3-ngan-hang-lai-suat-thap-nhat-hien-tai]] | Top 3 lãi thấp hơn Big4 — Seabank 10%, Shinhan 10,75%/2 năm, HD Bank 8,8% |
+| [[VJ-Dat/scripts/trong-xe-o-to/2026-04-12-txot-10-ngay-cuoi-ke-khai-thue-ho-kinh-doanh-20-4]] | Hạn 20/4/2026 kê khai tài khoản HKD — phạt 6–16 triệu, 3 bước cần làm ngay |
+| [[VJ-Dat/scripts/trong-xe-o-to/2026-04-10-txot-tin-nong-lai-suat-bi-can-thiep-giam-xuong]] | NHNN can thiệp giảm lãi — dẹp 14-15%, tin vui vay vốn, tin buồn tiết kiệm |
+| [[VJ-Dat/scripts/trong-xe-o-to/2026-01-24-txot-dao-han-han-muc-kinh-doanh-cuoi-nam]] | Đáo hạn cuối năm — room tín dụng hết, KPI ngân hàng, chủ động sớm 1-2 tháng |
+| [[VJ-Dat/scripts/trong-xe-o-to/2026-01-23-txot-quan-diem-tra-phi-dich-vu-bac-nam]] | Quan điểm trả phí Bắc vs Nam — hội thoại thực tế, dịch vụ tốt xứng đáng trả phí |
+| [[VJ-Dat/scripts/trong-xe-o-to/2026-01-23-txot-cic-the-tin-dung-du-no-cao]] | CIC không xấu vẫn bị từ chối — dư nợ thẻ cao 3 tháng = dấu hiệu đáo hạn thẻ |
+| [[VJ-Dat/scripts/trong-xe-o-to/2026-01-22-txot-3-cau-hoi-bat-buoc-truoc-khi-vay]] | 3 câu hỏi bắt buộc trước khi vay — lãi cố/thả nổi, phí trả sớm, rủi ro khoản vay |
+| [[VJ-Dat/scripts/trong-xe-o-to/2026-01-10-txot-seabank-thau-chi-3-ty-lai-8-5]] | SeaBank thấu chi 1-3 tỷ, 8,5%, không cần HKD cho 1 tỷ, tính lãi theo ngày |
+| [[VJ-Dat/scripts/trong-xe-o-to/2026-01-02-txot-chuyen-techcombank-ocb-6-2ty-thanh-7-7ty]] | Chuyển 6,2 tỷ Techcombank→OCB lên 7,7 tỷ — 5 loại phí, tổng 214tr, tiết kiệm 1,4 tỷ/3 năm |
+
+---
+
+## Scripts — Nghe Điện Thoại (1 script) — 2026-05-29
+
+| Script | Chủ đề |
+|---|---|
+| [[VJ-Dat/scripts/nghe-dien-thoai/2026-05-29-ndt-gap-khach-doi-giam-lai-bidv-6-5]] | Khách đòi giảm lãi 6,5% BIDV — giải thích thị trường không còn mức đó |
+| [[VJ-Dat/scripts/nghe-dien-thoai/2026-05-29-ndt-tu-choi-1-ty-hoa-hong-ho-so-ban-binh-duong]] | Từ chối 1 tỷ hoa hồng — hồ sơ 30 tỷ Bình Dương: CIC nhóm 2, tài sản chồng chéo, dòng tiền trắng |
+
+---
+
+## Scripts — Cầm Giấy Tờ (1 script) — 2026-05-29
+
+| Script | Chủ đề |
+|---|---|
+| [[VJ-Dat/scripts/cam-giay-to/2026-05-29-cgt-bidv-tang-lai-5-5-len-9-5-chi-trong-2-thang]] | BIDV tăng lãi từ 5,5% lên 9,5% chỉ trong 2 tháng — đừng tiếc mức cũ |
+
+---
+
 ## Scripts — Tips Ngắn (12 scripts) — 2026-05-28
 
 | Script | Chủ đề |
@@ -113,6 +147,11 @@ Feed Loop     → VJ-01-Atomic/insight/insight-[date]-[case].md
 | [[VJ-Dat/scripts/tips-nhanh/2026-05-28-tips-so-sanh-big4-lai-suat-moi-nhat]] | So sánh Big4 lãi suất — BIDV 10.8%, VCB/Agribank 10.5%, Vietinbank 13% tránh |
 | [[VJ-Dat/scripts/tips-nhanh/2026-05-28-tips-3-sai-lam-cap-vo-chong-di-vay]] | 3 sai lầm vợ chồng vay — chữ ký, DTI >50%, CIC xấu một người kéo cả hai |
 | [[VJ-Dat/scripts/tips-nhanh/2026-05-28-tips-2026-chon-ngan-hang-nao-theo-nhu-cau]] | 2026 chọn ngân hàng theo nhu cầu — an toàn/số/SME/xuất khẩu |
+| [[VJ-Dat/scripts/tips-nhanh/2026-05-28-tips-mua-no-5ty-chi-phi-chuyen-no]] | Mua nợ 5 tỷ — 4 loại phí, tổng hơn 100tr, tiết kiệm 200tr lãi/năm |
+| [[VJ-Dat/scripts/tips-nhanh/2026-05-29-tips-bidv-6-5-co-dinh-2-nam-phi-phat-linh-hoat]] | BIDV 6,5% cố định 2 năm — phí phạt linh hoạt, phù hợp khó chứng minh thu nhập |
+| [[VJ-Dat/scripts/tips-nhanh/2026-05-29-tips-agribank-7-5-re-nhat-2026-co-them-thau-chi]] | Agribank 7,5% rẻ nhất 2026 — thêm gói thấu chi 7,6% |
+| [[VJ-Dat/scripts/tips-nhanh/2026-05-29-tips-giai-ngan-chinh-chu-hay-ben-thu-3]] | Giải ngân chính chủ vs bên thứ 3 — 2 hình thức và khi nào áp dụng |
+| [[VJ-Dat/scripts/tips-nhanh/2026-05-29-tips-ho-kinh-doanh-mat-cua-vay-mb-publicbank-hoa-don]] | HKD sắp mất cửa vay — MB và PublicBank siết hóa đơn, còn VIB/OCB/TPBank/MSB/ACB |
 
 ---
 
