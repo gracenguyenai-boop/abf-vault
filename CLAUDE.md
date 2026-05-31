@@ -22,13 +22,13 @@ WebFetch: https://raw.githubusercontent.com/gracenguyenai-boop/abf-vault/main/<p
 
 ## ⚡ BOOTSTRAP — Khi nhận BẤT KỲ prompt nào
 
-⛔ DỪNG. Gọi **AskUserQuestion tool 1 LẦN DUY NHẤT** với 4 câu hỏi cùng lúc — user điền hết rồi submit 1 lần.
+⛔ DỪNG. Gọi **AskUserQuestion 2 lần liền mạch** — popup 2 hiện ngay sau popup 1, không có bước nào ở giữa.
 
 > **Shortcut rule:** Nếu prompt đã chứa đủ thông tin → extract field đã có, bỏ qua AskUserQuestion, chạy PHASE 0 luôn.
 
 ---
 
-**GỌI AskUserQuestion với 4 câu hỏi:**
+**POPUP 1 — Kênh + Workflow (submit lần 1):**
 
 ```
 questions: [
@@ -46,32 +46,20 @@ questions: [
     question: "Chọn workflow:",
     header: "Workflow",
     options: [
-      { label: "News Viral",         description: "Tin tức / thời sự"        },
-      { label: "Case Study",         description: "Hồ sơ vay vốn thực tế"    },
-      { label: "Kiến Thức Vay Vốn",  description: "Chỉ dùng cho An Bình"     },
-      { label: "An Bình Là Ai",      description: "Chỉ dùng cho An Bình"     }
-    ]
-  },
-  {
-    question: "[Câu hỏi nội dung theo workflow — xem bảng dưới]",
-    header: "Nội dung",
-    options: [
-      { label: "→ Nhập vào ô bên dưới", description: "Dán link hoặc mô tả nội dung" },
-      { label: "Chưa có nội dung",      description: "Bỏ qua bước này"              }
-    ]
-  },
-  {
-    question: "Chọn format quay:",
-    header: "Format",
-    options: [
-      { label: "talking-head",          description: "Monologue — mọi kênh"         },
-      { label: "tips-nhanh",            description: "Tips ngắn — mọi kênh"         },
-      { label: "dong-vai / giai-quyet / trong-xe", description: "Format đặc biệt theo kênh" },
-      { label: "selfie / tu-van / nghe-dt / cam-giay", description: "Format đặc biệt theo kênh" }
+      { label: "News Viral",        description: "Tin tức / thời sự"     },
+      { label: "Case Study",        description: "Hồ sơ vay vốn thực tế" },
+      { label: "Kiến Thức Vay Vốn", description: "Chỉ dùng cho An Bình"  },
+      { label: "An Bình Là Ai",     description: "Chỉ dùng cho An Bình"  }
     ]
   }
 ]
 ```
+
+→ Nhận kết quả VJ + Workflow. **Ngay lập tức** gọi POPUP 2 — không in text, không xử lý gì ở giữa.
+
+---
+
+**POPUP 2 — Nội dung + Format đã lọc (submit lần 2):**
 
 Câu hỏi nội dung theo workflow:
 - News Viral        → `"Nội dung news cần phân tích:"`
@@ -79,16 +67,34 @@ Câu hỏi nội dung theo workflow:
 - Kiến Thức Vay Vốn → `"Chủ đề cần phân tích:"`
 - An Bình Là Ai     → `"Nội dung cần phân tích:"`
 
-Format hợp lệ theo VJ × Workflow — **sau khi nhận kết quả, kiểm tra và báo lỗi nếu chọn sai combo:**
+Format options — **chỉ đưa vào đúng format hợp lệ theo bảng:**
 
-| VJ | News Viral | Case Study |
-|---|---|---|
-| An Bình | talking-head, tips-nhanh | talking-head, tips-nhanh |
-| Khang | talking-head, tips-nhanh | talking-head, tips-nhanh, giai-quyet-thuc-dia, selfie, tu-van-hoi-thoai |
-| Thuỷ | talking-head, tips-nhanh | talking-head, tips-nhanh, dong-vai |
-| Đặt | talking-head, tips-nhanh | talking-head, tips-nhanh, trong-xe-o-to, nghe-dien-thoai, cam-giay-to |
+| VJ | News Viral | Case Study | KTVV / ABLA |
+|---|---|---|---|
+| An Bình | talking-head, tips-nhanh | talking-head, tips-nhanh | talking-head, tips-nhanh |
+| Khang | talking-head, tips-nhanh | talking-head, tips-nhanh, giai-quyet-thuc-dia, selfie, tu-van-hoi-thoai | — |
+| Thuỷ | talking-head, tips-nhanh | talking-head, tips-nhanh, dong-vai | — |
+| Đặt | talking-head, tips-nhanh | talking-head, tips-nhanh, trong-xe-o-to, nghe-dien-thoai, cam-giay-to | — |
 
-⛔ Sau khi nhận đủ 4 kết quả → validate combo VJ × Workflow × Format → lưu working memory → chạy PHASE 0.
+```
+questions: [
+  {
+    question: "[câu hỏi nội dung theo workflow]",
+    header: "Nội dung",
+    options: [
+      { label: "→ Dán nội dung vào ô bên dưới", description: "Link hoặc mô tả" },
+      { label: "Chưa có — bỏ qua",              description: "Tiếp tục không có nội dung" }
+    ]
+  },
+  {
+    question: "Chọn format quay:",
+    header: "Format",
+    options: [chỉ format hợp lệ của VJ × Workflow vừa chọn — tối đa 4 options]
+  }
+]
+```
+
+⛔ Sau khi nhận đủ → lưu working memory → chạy PHASE 0 ngay.
 
 ---
 
