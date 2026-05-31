@@ -61,23 +61,22 @@ options: [danh sách theo VJ đã chọn]
 
 **BƯỚC 3 — Gọi AskUserQuestion** *(sau khi có VJ + Workflow)*
 
-Hỏi nội dung dạng free-text — dùng option "Other" để user nhập tự do:
+Chỉ 1 ô nhập tự do — KHÔNG có options, để user dán thẳng nội dung vào "Other":
 
 ```
-question: "[Câu hỏi theo workflow — xem bảng bên dưới]"
+question: "[câu hỏi theo workflow]"
 header: "Nội dung"
 options:
-  - label: "Dán nội dung / link vào ô bên dưới", description: "Nhập tự do"
+  - label: "Nội dung news cần phân tích", description: "Dán link hoặc mô tả vào ô bên dưới"
 ```
 
-| Workflow | Câu hỏi |
-|---|---|
-| News Viral | "Dán link bài báo hoặc mô tả tin tức:" |
-| Case Study | "Dán file hồ sơ / mô tả case / ghi chú 4F:" |
-| Kiến Thức Vay Vốn | "Nhập chủ đề kiến thức vay vốn:" |
-| An Bình Là Ai | "Nhập nội dung / góc nhìn muốn khai thác:" |
+Câu hỏi theo workflow:
+- News Viral       → `"Nội dung news cần phân tích:"`
+- Case Study       → `"Nội dung case cần phân tích:"`
+- Kiến Thức Vay Vốn → `"Chủ đề cần phân tích:"`
+- An Bình Là Ai    → `"Nội dung cần phân tích:"`
 
-⛔ Chờ kết quả.
+⛔ Chờ kết quả — user sẽ chọn "Other" và nhập thẳng nội dung.
 
 ---
 
