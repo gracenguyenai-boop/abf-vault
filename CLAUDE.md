@@ -22,93 +22,90 @@ WebFetch: https://raw.githubusercontent.com/gracenguyenai-boop/abf-vault/main/<p
 
 ## ⚡ BOOTSTRAP — Khi nhận BẤT KỲ prompt nào
 
-⛔ DỪNG. Chạy 4 bước tuần tự — mỗi bước chờ input trước khi hiện bước tiếp. KHÔNG tự đoán.
+⛔ DỪNG. Dùng **AskUserQuestion tool** cho từng bước — tool này render thành nút bấm thật trong Claude Code UI. KHÔNG in text options, KHÔNG tự đoán.
 
-> **Shortcut rule:** Nếu prompt đã chứa đủ thông tin (ví dụ: *"thuỷ case study đóng vai"*) → extract các field đã có, chỉ hỏi bước còn thiếu (thường là Bước 3 — nội dung).
-
----
-
-**BƯỚC 1 — Chọn kênh:**
-
-```
-🎬 ABF Workflow
-
-Chọn kênh:
-
-  [ A ] An Bình Vay Vốn     [ B ] Khang Vay Hay
-  [ C ] Thuỷ Vay Vốn        [ D ] Đặt Vay Đơn Giản
-```
-
-⛔ DỪNG — chờ chọn. Không hiện bước 2 trước khi có kết quả.
+> **Shortcut rule:** Nếu prompt đã chứa đủ thông tin (ví dụ: *"thuỷ case study đóng vai"*) → extract các field đã có, chỉ hỏi bước còn thiếu.
 
 ---
 
-**BƯỚC 2 — Chọn workflow** *(hiện sau khi có VJ)*
-
-| VJ | Workflow hiển thị |
-|---|---|
-| A — An Bình | `[1] News Viral` `[2] Case Study` `[3] Kiến Thức Vay Vốn` `[4] An Bình Là Ai` |
-| B, C, D | `[1] News Viral` `[2] Case Study` |
-
+**BƯỚC 1 — Gọi AskUserQuestion:**
 ```
-✅ Kênh: [tên VJ]
-
-Chọn workflow:
-
-  [danh sách theo VJ]
+question: "🎬 Chọn kênh:"
+header: "Kênh"
+options:
+  - label: "An Bình Vay Vốn",  description: "VJ An Bình"
+  - label: "Khang Vay Hay",    description: "VJ Khang"
+  - label: "Thuỷ Vay Vốn",     description: "VJ Thuỷ"
+  - label: "Đặt Vay Đơn Giản", description: "VJ Đặt"
 ```
 
-⛔ DỪNG — chờ chọn.
+⛔ Chờ kết quả. Không chạy bước 2 trước khi có kết quả bước 1.
 
 ---
 
-**BƯỚC 3 — Nhập nội dung** *(hiện sau khi có VJ + Workflow)*
+**BƯỚC 2 — Gọi AskUserQuestion** *(sau khi có VJ)*
+
+Workflow options theo VJ:
+- An Bình → 4 options: News Viral / Case Study / Kiến Thức Vay Vốn / An Bình Là Ai
+- Khang / Thuỷ / Đặt → 2 options: News Viral / Case Study
+
+```
+question: "Chọn workflow:"
+header: "Workflow"
+options: [danh sách theo VJ đã chọn]
+```
+
+⛔ Chờ kết quả.
+
+---
+
+**BƯỚC 3 — Gọi AskUserQuestion** *(sau khi có VJ + Workflow)*
+
+Hỏi nội dung dạng free-text — dùng option "Other" để user nhập tự do:
+
+```
+question: "[Câu hỏi theo workflow — xem bảng bên dưới]"
+header: "Nội dung"
+options:
+  - label: "Dán nội dung / link vào ô bên dưới", description: "Nhập tự do"
+```
 
 | Workflow | Câu hỏi |
 |---|---|
-| News Viral | `Dán link bài báo hoặc mô tả tin tức:` |
-| Case Study | `Dán file hồ sơ / mô tả case / ghi chú 4F:` |
-| Kiến Thức Vay Vốn | `Nhập chủ đề kiến thức vay vốn:` |
-| An Bình Là Ai | `Nhập nội dung / góc nhìn muốn khai thác:` |
+| News Viral | "Dán link bài báo hoặc mô tả tin tức:" |
+| Case Study | "Dán file hồ sơ / mô tả case / ghi chú 4F:" |
+| Kiến Thức Vay Vốn | "Nhập chủ đề kiến thức vay vốn:" |
+| An Bình Là Ai | "Nhập nội dung / góc nhìn muốn khai thác:" |
 
-```
-✅ Kênh: [X]   Workflow: [Y]
-
-[Câu hỏi theo workflow]
-
-  _______________________________________________
-```
-
-⛔ DỪNG — chờ nhập.
+⛔ Chờ kết quả.
 
 ---
 
-**BƯỚC 4 — Chọn format** *(hiện sau khi có VJ + Workflow + Nội dung)*
+**BƯỚC 4 — Gọi AskUserQuestion** *(sau khi có VJ + Workflow + Nội dung)*
 
-Ma trận format hợp lệ theo VJ × Workflow:
+Chỉ đưa vào options các format hợp lệ theo bảng sau:
 
 | VJ | News Viral | Case Study |
 |---|---|---|
-| A — An Bình | talking-head · tips-nhanh | talking-head · tips-nhanh |
-| B — Khang | talking-head · tips-nhanh | talking-head · tips-nhanh · giai-quyet-thuc-dia · selfie · tu-van-hoi-thoai |
-| C — Thuỷ | talking-head · tips-nhanh | talking-head · tips-nhanh · dong-vai |
-| D — Đặt | talking-head · tips-nhanh | talking-head · tips-nhanh · trong-xe-o-to · nghe-dien-thoai · cam-giay-to |
+| An Bình | talking-head, tips-nhanh | talking-head, tips-nhanh |
+| Khang | talking-head, tips-nhanh | talking-head, tips-nhanh, giai-quyet-thuc-dia, selfie, tu-van-hoi-thoai |
+| Thuỷ | talking-head, tips-nhanh | talking-head, tips-nhanh, dong-vai |
+| Đặt | talking-head, tips-nhanh | talking-head, tips-nhanh, trong-xe-o-to, nghe-dien-thoai, cam-giay-to |
 
 ```
-✅ Kênh: [X]   Workflow: [Y]   Nội dung: nhận ✓
-
-Chọn format quay:
-
-  [chỉ hiện format hợp lệ theo bảng trên]
+question: "Chọn format quay:"
+header: "Format"
+options: [chỉ format hợp lệ theo bảng trên]
 ```
 
-⛔ DỪNG — chờ chọn. KHÔNG tự đoán format.
+⛔ Chờ kết quả. KHÔNG tự đoán.
 
 ---
 
 → Sau khi có đủ 4 bước → lưu working memory:
 `VJ = [X]` | `WORKFLOW = [Y]` | `FORMAT = [Z]` | `INPUT = [W]`
 
+Hiển thị confirm:
 ```
 ✅ Kênh: [X]   Workflow: [Y]   Format: [Z]   Nội dung: nhận ✓
 → Đang khởi động PHASE 0...
