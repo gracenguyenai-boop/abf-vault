@@ -2,6 +2,8 @@
 name: 2026-05-28-th-bo-me-no-xau-nhom5-doi-so-vietbank-3ty
 type: script
 format: talking-head
+workflow-tags:
+  - case-study
 branch: VJ-Dat
 status: raw
 created: '2026-05-28'

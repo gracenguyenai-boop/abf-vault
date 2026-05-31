@@ -2,6 +2,8 @@
 name: tips-top3-bank-lai-thap-seabank-shinhan-hdbank
 type: script
 format: tips-nhanh
+workflow-tags:
+  - news
 branch: VJ-Dat
 status: raw
 created: '2026-05-28'

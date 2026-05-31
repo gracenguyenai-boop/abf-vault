@@ -2,6 +2,9 @@
 name: th-thoi-dai-chuyen-bank-2025
 type: script
 format: talking-head
+workflow-tags:
+  - news
+  - case-study
 branch: VJ-AnBinh
 status: raw
 created: '2026-05-28'

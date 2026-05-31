@@ -2,6 +2,8 @@
 name: ndt-gap-khach-doi-giam-lai-bidv-6-5
 type: script
 format: nghe-dien-thoai
+workflow-tags:
+  - case-study
 branch: VJ-Dat
 status: raw
 created: '2026-05-29'

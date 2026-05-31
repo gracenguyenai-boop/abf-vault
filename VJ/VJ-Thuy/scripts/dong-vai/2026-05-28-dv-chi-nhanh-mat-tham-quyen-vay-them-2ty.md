@@ -2,6 +2,8 @@
 name: 2026-05-28-dv-chi-nhanh-mat-tham-quyen-vay-them-2ty
 type: script
 format: dong-vai
+workflow-tags:
+  - case-study
 branch: VJ-Thuy
 status: raw
 created: '2026-05-28'

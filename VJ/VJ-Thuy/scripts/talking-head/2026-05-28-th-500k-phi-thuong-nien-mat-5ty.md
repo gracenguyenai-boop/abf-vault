@@ -2,6 +2,8 @@
 name: 2026-05-28-th-500k-phi-thuong-nien-mat-5ty
 type: script
 format: talking-head
+workflow-tags:
+  - case-study
 branch: VJ-Thuy
 status: raw
 created: '2026-05-28'

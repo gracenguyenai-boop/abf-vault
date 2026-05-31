@@ -2,6 +2,8 @@
 name: 2026-05-28-th-hung-yen-16ty-26-tuoi
 type: script
 format: talking-head
+workflow-tags:
+  - case-study
 branch: VJ-Thuy
 status: raw
 created: '2026-05-28'

@@ -2,6 +2,8 @@
 name: tips-goi-agribank-6-5
 type: script
 format: tips-nhanh
+workflow-tags:
+  - news
 branch: VJ-AnBinh
 status: raw
 created: '2026-05-28'

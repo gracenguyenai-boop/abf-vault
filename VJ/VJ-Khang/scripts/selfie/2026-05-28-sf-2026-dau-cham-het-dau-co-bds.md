@@ -2,6 +2,8 @@
 name: 2026-05-28-sf-2026-dau-cham-het-dau-co-bds
 type: script
 format: selfie
+workflow-tags:
+  - news
 branch: VJ-Khang
 status: raw
 created: '2026-05-28'

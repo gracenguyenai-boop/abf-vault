@@ -2,6 +2,9 @@
 name: th-chi-phi-tu-van
 type: script
 format: talking-head
+workflow-tags:
+  - news
+  - case-study
 branch: VJ-AnBinh
 status: raw
 created: '2026-05-28'

@@ -2,6 +2,8 @@
 name: 2026-05-28-th-vat-lieu-xay-dung-15ty-dao-han-chuyen-22ty
 type: script
 format: talking-head
+workflow-tags:
+  - case-study
 branch: VJ-Khang
 status: raw
 created: '2026-05-28'

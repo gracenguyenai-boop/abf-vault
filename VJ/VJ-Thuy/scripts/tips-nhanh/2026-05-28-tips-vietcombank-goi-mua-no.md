@@ -2,6 +2,8 @@
 name: 2026-05-28-tips-vietcombank-goi-mua-no
 type: script
 format: tips-nhanh
+workflow-tags:
+  - case-study
 branch: VJ-Thuy
 status: raw
 created: '2026-05-28'

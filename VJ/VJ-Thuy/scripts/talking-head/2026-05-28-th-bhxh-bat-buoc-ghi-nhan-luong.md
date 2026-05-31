@@ -2,6 +2,9 @@
 name: 2026-05-28-th-bhxh-bat-buoc-ghi-nhan-luong
 type: script
 format: talking-head
+workflow-tags:
+  - news
+  - case-study
 branch: VJ-Thuy
 status: raw
 created: '2026-05-28'

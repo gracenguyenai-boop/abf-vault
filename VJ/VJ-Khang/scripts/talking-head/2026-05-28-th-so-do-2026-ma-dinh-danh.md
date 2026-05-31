@@ -2,6 +2,8 @@
 name: 2026-05-28-th-so-do-2026-ma-dinh-danh
 type: script
 format: talking-head
+workflow-tags:
+  - case-study
 branch: VJ-Khang
 status: raw
 created: '2026-05-28'

@@ -2,6 +2,9 @@
 name: tips-2026-chon-ngan-hang-nao-theo-nhu-cau
 type: script
 format: tips-nhanh
+workflow-tags:
+  - news
+  - case-study
 branch: VJ-Dat
 status: raw
 created: '2026-05-28'

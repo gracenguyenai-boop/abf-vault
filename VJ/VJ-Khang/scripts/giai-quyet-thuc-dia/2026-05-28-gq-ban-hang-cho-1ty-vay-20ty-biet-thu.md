@@ -2,6 +2,8 @@
 name: 2026-05-28-gq-ban-hang-cho-1ty-vay-20ty-biet-thu
 type: script
 format: giai-quyet-thuc-dia
+workflow-tags:
+  - case-study
 branch: VJ-Khang
 status: raw
 created: '2026-05-28'

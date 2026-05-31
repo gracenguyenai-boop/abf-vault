@@ -2,6 +2,9 @@
 name: 2026-05-28-th-ho-kinh-doanh-tai-khoan-lien-ket
 type: script
 format: talking-head
+workflow-tags:
+  - news
+  - case-study
 branch: VJ-Thuy
 status: raw
 created: '2026-05-28'

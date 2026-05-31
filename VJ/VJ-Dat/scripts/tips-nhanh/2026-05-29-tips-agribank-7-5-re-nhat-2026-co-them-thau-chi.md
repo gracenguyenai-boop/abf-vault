@@ -2,6 +2,8 @@
 name: tips-agribank-7-5-re-nhat-2026-co-them-thau-chi
 type: script
 format: tips-nhanh
+workflow-tags:
+  - news
 branch: VJ-Dat
 status: raw
 created: '2026-05-29'

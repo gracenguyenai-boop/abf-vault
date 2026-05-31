@@ -2,6 +2,8 @@
 name: 2026-05-28-tips-hd-bank-vay-bds-an-han-goc-5-nam
 type: script
 format: tips-nhanh
+workflow-tags:
+  - news
 branch: VJ-Thuy
 status: raw
 created: '2026-05-28'

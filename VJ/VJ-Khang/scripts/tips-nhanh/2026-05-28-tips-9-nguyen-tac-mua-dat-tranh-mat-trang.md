@@ -2,6 +2,8 @@
 name: 2026-05-28-tips-9-nguyen-tac-mua-dat-tranh-mat-trang
 type: script
 format: tips-nhanh
+workflow-tags:
+  - case-study
 branch: VJ-Khang
 status: raw
 created: '2026-05-28'

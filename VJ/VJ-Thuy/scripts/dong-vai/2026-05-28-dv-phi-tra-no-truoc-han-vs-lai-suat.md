@@ -2,6 +2,8 @@
 name: 2026-05-28-dv-phi-tra-no-truoc-han-vs-lai-suat
 type: script
 format: dong-vai
+workflow-tags:
+  - case-study
 branch: VJ-Thuy
 status: raw
 created: '2026-05-28'

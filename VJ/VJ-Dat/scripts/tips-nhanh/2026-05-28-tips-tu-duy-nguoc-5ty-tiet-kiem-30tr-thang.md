@@ -2,6 +2,8 @@
 name: tips-tu-duy-nguoc-5ty-tiet-kiem-30tr-thang
 type: script
 format: tips-nhanh
+workflow-tags:
+  - news
 branch: VJ-Dat
 status: raw
 created: '2026-05-28'

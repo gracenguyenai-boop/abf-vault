@@ -2,6 +2,8 @@
 name: 2026-05-28-tvht-vay-ty-ruoi-hanh-du-thu-luat-2026
 type: script
 format: tu-van-hoi-thoai
+workflow-tags:
+  - case-study
 branch: VJ-Khang
 status: raw
 created: '2026-05-28'

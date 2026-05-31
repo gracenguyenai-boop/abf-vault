@@ -2,6 +2,8 @@
 name: txot-quan-diem-tra-phi-dich-vu-bac-nam
 type: script
 format: trong-xe-o-to
+workflow-tags:
+  - news
 branch: VJ-Dat
 status: raw
 created: '2026-01-23'

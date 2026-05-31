@@ -2,6 +2,8 @@
 name: tips-giai-ngan-chinh-chu-hay-ben-thu-3
 type: script
 format: tips-nhanh
+workflow-tags:
+  - case-study
 branch: VJ-Dat
 status: raw
 created: '2026-05-29'

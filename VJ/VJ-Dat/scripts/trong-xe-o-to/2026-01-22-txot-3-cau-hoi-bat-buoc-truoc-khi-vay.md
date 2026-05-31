@@ -2,6 +2,8 @@
 name: txot-3-cau-hoi-bat-buoc-truoc-khi-vay
 type: script
 format: trong-xe-o-to
+workflow-tags:
+  - news
 branch: VJ-Dat
 status: raw
 created: '2026-01-22'

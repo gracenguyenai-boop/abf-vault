@@ -2,6 +2,8 @@
 name: th-canh-bao-dinh-gia-ao-40-trieu
 type: script
 format: talking-head
+workflow-tags:
+  - case-study
 branch: VJ-AnBinh
 status: raw
 created: '2026-05-28'

@@ -2,6 +2,8 @@
 name: tips-xay-duong-tu-y-ngan-hang-tu-choi
 type: script
 format: tips-nhanh
+workflow-tags:
+  - case-study
 branch: VJ-Dat
 status: raw
 created: '2026-05-28'

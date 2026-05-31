@@ -2,6 +2,9 @@
 name: 2026-05-28-th-14-ngan-hang-trong-yeu-2026-banking500
 type: script
 format: talking-head
+workflow-tags:
+  - news
+  - case-study
 branch: VJ-Dat
 status: raw
 created: '2026-05-28'

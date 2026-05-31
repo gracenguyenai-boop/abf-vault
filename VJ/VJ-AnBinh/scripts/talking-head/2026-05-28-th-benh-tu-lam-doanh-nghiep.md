@@ -2,6 +2,8 @@
 name: th-benh-tu-lam-doanh-nghiep
 type: script
 format: talking-head
+workflow-tags:
+  - case-study
 branch: VJ-AnBinh
 status: raw
 created: '2026-05-28'

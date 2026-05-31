@@ -2,6 +2,8 @@
 name: tips-3-sai-lam-vay-lan-dau
 type: script
 format: tips-nhanh
+workflow-tags:
+  - case-study
 branch: VJ-AnBinh
 status: raw
 created: '2026-05-28'

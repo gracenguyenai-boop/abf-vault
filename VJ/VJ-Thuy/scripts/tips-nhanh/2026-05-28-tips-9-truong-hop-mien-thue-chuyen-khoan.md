@@ -2,6 +2,9 @@
 name: 2026-05-28-tips-9-truong-hop-mien-thue-chuyen-khoan
 type: script
 format: tips-nhanh
+workflow-tags:
+  - news
+  - case-study
 branch: VJ-Thuy
 status: raw
 created: '2026-05-28'

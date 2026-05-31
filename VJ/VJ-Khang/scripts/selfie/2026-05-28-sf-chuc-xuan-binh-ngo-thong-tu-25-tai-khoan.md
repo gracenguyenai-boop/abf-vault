@@ -2,6 +2,8 @@
 name: 2026-05-28-sf-chuc-xuan-binh-ngo-thong-tu-25-tai-khoan
 type: script
 format: selfie
+workflow-tags:
+  - news
 branch: VJ-Khang
 status: raw
 created: '2026-05-28'

@@ -2,6 +2,9 @@
 name: tips-mua-no-5ty-chi-phi-chuyen-no
 type: script
 format: tips-nhanh
+workflow-tags:
+  - news
+  - case-study
 branch: VJ-Dat
 status: raw
 created: '2026-05-28'

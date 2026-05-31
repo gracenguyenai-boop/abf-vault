@@ -2,6 +2,8 @@
 name: txot-vay-3-ben-lang-nhang-mat-tien-coc
 type: script
 format: trong-xe-o-to
+workflow-tags:
+  - case-study
 branch: VJ-Dat
 status: raw
 created: '2026-04-23'

@@ -2,6 +2,9 @@
 name: 2026-05-28-tips-3-moc-thue-ho-kinh-doanh-2026
 type: script
 format: tips-nhanh
+workflow-tags:
+  - news
+  - case-study
 branch: VJ-Khang
 status: raw
 created: '2026-05-28'

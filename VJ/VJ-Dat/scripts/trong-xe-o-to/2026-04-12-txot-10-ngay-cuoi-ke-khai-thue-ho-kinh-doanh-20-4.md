@@ -2,6 +2,8 @@
 name: txot-10-ngay-cuoi-ke-khai-thue-ho-kinh-doanh-20-4
 type: script
 format: trong-xe-o-to
+workflow-tags:
+  - news
 branch: VJ-Dat
 status: raw
 created: '2026-04-12'

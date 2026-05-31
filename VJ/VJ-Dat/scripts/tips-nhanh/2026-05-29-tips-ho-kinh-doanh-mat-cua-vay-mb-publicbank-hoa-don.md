@@ -2,6 +2,9 @@
 name: tips-ho-kinh-doanh-mat-cua-vay-mb-publicbank-hoa-don
 type: script
 format: tips-nhanh
+workflow-tags:
+  - news
+  - case-study
 branch: VJ-Dat
 status: raw
 created: '2026-05-29'

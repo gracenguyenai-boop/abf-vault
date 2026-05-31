@@ -2,6 +2,8 @@
 name: txot-dao-han-han-muc-kinh-doanh-cuoi-nam
 type: script
 format: trong-xe-o-to
+workflow-tags:
+  - case-study
 branch: VJ-Dat
 status: raw
 created: '2026-01-24'

@@ -2,6 +2,8 @@
 name: 2026-05-28-dv-no-nhom-5-khong-xoa-lich-su
 type: script
 format: dong-vai
+workflow-tags:
+  - case-study
 branch: VJ-Thuy
 status: raw
 created: '2026-05-28'

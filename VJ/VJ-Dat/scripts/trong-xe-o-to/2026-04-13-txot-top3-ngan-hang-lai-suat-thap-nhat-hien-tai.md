@@ -2,6 +2,8 @@
 name: txot-top3-ngan-hang-lai-suat-thap-nhat-hien-tai
 type: script
 format: trong-xe-o-to
+workflow-tags:
+  - news
 branch: VJ-Dat
 status: raw
 created: '2026-04-13'

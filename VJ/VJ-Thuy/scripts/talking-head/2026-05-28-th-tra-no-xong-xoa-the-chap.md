@@ -2,6 +2,9 @@
 name: 2026-05-28-th-tra-no-xong-xoa-the-chap
 type: script
 format: talking-head
+workflow-tags:
+  - news
+  - case-study
 branch: VJ-Thuy
 status: raw
 created: '2026-05-28'

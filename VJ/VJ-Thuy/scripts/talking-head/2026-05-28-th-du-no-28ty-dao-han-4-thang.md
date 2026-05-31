@@ -2,6 +2,8 @@
 name: 2026-05-28-th-du-no-28ty-dao-han-4-thang
 type: script
 format: talking-head
+workflow-tags:
+  - case-study
 branch: VJ-Thuy
 status: raw
 created: '2026-05-28'

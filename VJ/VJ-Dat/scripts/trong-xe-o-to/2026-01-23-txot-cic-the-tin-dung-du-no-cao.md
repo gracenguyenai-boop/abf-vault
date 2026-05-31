@@ -2,6 +2,8 @@
 name: txot-cic-the-tin-dung-du-no-cao
 type: script
 format: trong-xe-o-to
+workflow-tags:
+  - case-study
 branch: VJ-Dat
 status: raw
 created: '2026-01-23'

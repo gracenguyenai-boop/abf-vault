@@ -2,6 +2,8 @@
 name: tips-tai-dinh-cu-dung-vay-ngay
 type: script
 format: tips-nhanh
+workflow-tags:
+  - case-study
 branch: VJ-AnBinh
 status: raw
 created: '2026-05-28'

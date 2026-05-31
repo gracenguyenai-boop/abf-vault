@@ -2,6 +2,8 @@
 name: 2026-05-28-th-ngan-hang-giam-lai-nhung-khach-van-y-chang
 type: script
 format: talking-head
+workflow-tags:
+  - news
 branch: VJ-Khang
 status: raw
 created: '2026-05-28'

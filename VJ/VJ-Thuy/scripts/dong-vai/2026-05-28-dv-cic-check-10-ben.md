@@ -2,6 +2,8 @@
 name: 2026-05-28-dv-cic-check-10-ben
 type: script
 format: dong-vai
+workflow-tags:
+  - case-study
 branch: VJ-Thuy
 status: raw
 created: '2026-05-28'

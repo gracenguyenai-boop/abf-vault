@@ -2,6 +2,8 @@
 name: tips-so-sanh-big4-lai-suat-moi-nhat
 type: script
 format: tips-nhanh
+workflow-tags:
+  - news
 branch: VJ-Dat
 status: raw
 created: '2026-05-28'

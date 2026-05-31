@@ -2,6 +2,8 @@
 name: tips-3-sai-lam-cap-vo-chong-di-vay
 type: script
 format: tips-nhanh
+workflow-tags:
+  - case-study
 branch: VJ-Dat
 status: raw
 created: '2026-05-28'

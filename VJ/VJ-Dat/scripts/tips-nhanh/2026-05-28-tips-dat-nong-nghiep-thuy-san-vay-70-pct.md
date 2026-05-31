@@ -2,6 +2,9 @@
 name: tips-dat-nong-nghiep-thuy-san-vay-70-pct
 type: script
 format: tips-nhanh
+workflow-tags:
+  - news
+  - case-study
 branch: VJ-Dat
 status: raw
 created: '2026-05-28'

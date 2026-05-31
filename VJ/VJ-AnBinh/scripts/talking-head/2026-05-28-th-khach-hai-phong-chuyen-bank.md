@@ -2,6 +2,8 @@
 name: th-khach-hai-phong-chuyen-bank
 type: script
 format: talking-head
+workflow-tags:
+  - case-study
 branch: VJ-AnBinh
 status: raw
 created: '2026-05-28'

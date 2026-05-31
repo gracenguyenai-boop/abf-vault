@@ -2,6 +2,8 @@
 name: 2026-05-28-sf-nha-o-xa-hoi-nghi-dinh-54-cong-an-xa
 type: script
 format: selfie
+workflow-tags:
+  - news
 branch: VJ-Khang
 status: raw
 created: '2026-05-28'

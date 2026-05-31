@@ -2,6 +2,8 @@
 name: 2026-05-28-gq-ca-phe-20tr-vay-8ty-mui-ne
 type: script
 format: giai-quyet-thuc-dia
+workflow-tags:
+  - case-study
 branch: VJ-Khang
 status: raw
 created: '2026-05-28'

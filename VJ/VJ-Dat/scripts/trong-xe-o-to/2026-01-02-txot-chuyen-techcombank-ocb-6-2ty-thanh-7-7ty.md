@@ -2,6 +2,8 @@
 name: txot-chuyen-techcombank-ocb-6-2ty-thanh-7-7ty
 type: script
 format: trong-xe-o-to
+workflow-tags:
+  - news
 branch: VJ-Dat
 status: raw
 created: '2026-01-02'

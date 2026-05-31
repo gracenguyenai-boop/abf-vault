@@ -2,6 +2,9 @@
 name: tips-ly-do-can-tu-van
 type: script
 format: tips-nhanh
+workflow-tags:
+  - news
+  - case-study
 branch: VJ-AnBinh
 status: raw
 created: '2026-05-28'

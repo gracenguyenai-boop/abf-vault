@@ -2,6 +2,9 @@
 name: tips-tiet-kiem-vs-chung-chi-tien-gui
 type: script
 format: tips-nhanh
+workflow-tags:
+  - news
+  - case-study
 branch: VJ-Dat
 status: raw
 created: '2026-05-28'

@@ -2,6 +2,8 @@
 name: txot-seabank-thau-chi-3-ty-lai-8-5
 type: script
 format: trong-xe-o-to
+workflow-tags:
+  - news
 branch: VJ-Dat
 status: raw
 created: '2026-01-10'

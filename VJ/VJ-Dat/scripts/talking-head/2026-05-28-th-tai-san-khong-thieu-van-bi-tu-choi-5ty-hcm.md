@@ -2,6 +2,8 @@
 name: 2026-05-28-th-tai-san-khong-thieu-van-bi-tu-choi-5ty-hcm
 type: script
 format: talking-head
+workflow-tags:
+  - case-study
 branch: VJ-Dat
 status: raw
 created: '2026-05-28'

@@ -2,6 +2,8 @@
 name: cgt-bidv-tang-lai-5-5-len-9-5-chi-trong-2-thang
 type: script
 format: cam-giay-to
+workflow-tags:
+  - case-study
 branch: VJ-Dat
 status: raw
 created: '2026-05-29'

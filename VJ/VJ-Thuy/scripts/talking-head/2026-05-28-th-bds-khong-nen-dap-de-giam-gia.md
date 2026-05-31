@@ -2,6 +2,8 @@
 name: 2026-05-28-th-bds-khong-nen-dap-de-giam-gia
 type: script
 format: talking-head
+workflow-tags:
+  - news
 branch: VJ-Thuy
 status: raw
 created: '2026-05-28'

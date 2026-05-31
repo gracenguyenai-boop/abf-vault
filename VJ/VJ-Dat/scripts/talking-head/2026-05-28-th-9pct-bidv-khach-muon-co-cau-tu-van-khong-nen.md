@@ -2,6 +2,9 @@
 name: 2026-05-28-th-9pct-bidv-khach-muon-co-cau-tu-van-khong-nen
 type: script
 format: talking-head
+workflow-tags:
+  - news
+  - case-study
 branch: VJ-Dat
 status: raw
 created: '2026-05-28'

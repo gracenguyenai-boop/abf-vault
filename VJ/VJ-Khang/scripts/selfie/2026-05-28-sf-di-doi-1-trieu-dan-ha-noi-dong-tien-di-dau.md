@@ -2,6 +2,8 @@
 name: 2026-05-28-sf-di-doi-1-trieu-dan-ha-noi-dong-tien-di-dau
 type: script
 format: selfie
+workflow-tags:
+  - news
 branch: VJ-Khang
 status: raw
 created: '2026-05-28'

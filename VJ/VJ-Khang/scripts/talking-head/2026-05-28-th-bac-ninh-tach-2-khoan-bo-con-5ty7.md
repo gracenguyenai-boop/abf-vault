@@ -2,6 +2,8 @@
 name: 2026-05-28-th-bac-ninh-tach-2-khoan-bo-con-5ty7
 type: script
 format: talking-head
+workflow-tags:
+  - case-study
 branch: VJ-Khang
 status: raw
 created: '2026-05-28'

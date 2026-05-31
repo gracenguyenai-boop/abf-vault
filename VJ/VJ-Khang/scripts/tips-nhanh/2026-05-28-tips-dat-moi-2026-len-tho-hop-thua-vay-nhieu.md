@@ -2,6 +2,9 @@
 name: 2026-05-28-tips-dat-moi-2026-len-tho-hop-thua-vay-nhieu
 type: script
 format: tips-nhanh
+workflow-tags:
+  - news
+  - case-study
 branch: VJ-Khang
 status: raw
 created: '2026-05-28'

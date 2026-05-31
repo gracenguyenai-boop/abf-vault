@@ -2,6 +2,8 @@
 name: tips-the-tin-dung-toan-thieu-toi-thieu
 type: script
 format: tips-nhanh
+workflow-tags:
+  - news
 branch: VJ-AnBinh
 status: raw
 created: '2026-05-28'

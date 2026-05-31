@@ -2,6 +2,9 @@
 name: tips-dat-bi-thu-hoi-the-chap
 type: script
 format: tips-nhanh
+workflow-tags:
+  - news
+  - case-study
 branch: VJ-AnBinh
 status: posted
 created: '2026-05-28'

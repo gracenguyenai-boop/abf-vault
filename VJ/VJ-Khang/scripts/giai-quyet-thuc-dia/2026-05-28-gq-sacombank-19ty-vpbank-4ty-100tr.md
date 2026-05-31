@@ -2,6 +2,8 @@
 name: 2026-05-28-gq-sacombank-19ty-vpbank-4ty-100tr
 type: script
 format: giai-quyet-thuc-dia
+workflow-tags:
+  - case-study
 branch: VJ-Khang
 status: raw
 created: '2026-05-28'

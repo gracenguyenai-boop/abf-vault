@@ -2,6 +2,8 @@
 name: 2026-05-28-tips-5-nhom-nghi-dinh-68-thue-xuyen-suot
 type: script
 format: tips-nhanh
+workflow-tags:
+  - news
 branch: VJ-Khang
 status: raw
 created: '2026-05-28'

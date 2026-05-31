@@ -2,6 +2,8 @@
 name: 2026-05-28-gq-giao-vien-hai-duong-6ty-trung-tam-anh
 type: script
 format: giai-quyet-thuc-dia
+workflow-tags:
+  - case-study
 branch: VJ-Khang
 status: raw
 created: '2026-05-28'

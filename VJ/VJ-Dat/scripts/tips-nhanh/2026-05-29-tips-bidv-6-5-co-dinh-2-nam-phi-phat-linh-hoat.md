@@ -2,6 +2,8 @@
 name: tips-bidv-6-5-co-dinh-2-nam-phi-phat-linh-hoat
 type: script
 format: tips-nhanh
+workflow-tags:
+  - news
 branch: VJ-Dat
 status: raw
 created: '2026-05-29'

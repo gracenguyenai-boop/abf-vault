@@ -2,6 +2,8 @@
 name: 2026-05-28-tvht-het-room-tin-dung-dau-nam
 type: script
 format: tu-van-hoi-thoai
+workflow-tags:
+  - case-study
 branch: VJ-Khang
 status: raw
 created: '2026-05-28'

@@ -2,6 +2,8 @@
 name: 2026-05-28-tvht-6-thang-dao-1-lan-chuyen-jj-bank-25-nam
 type: script
 format: tu-van-hoi-thoai
+workflow-tags:
+  - case-study
 branch: VJ-Khang
 status: raw
 created: '2026-05-28'

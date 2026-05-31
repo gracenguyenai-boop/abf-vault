@@ -2,6 +2,8 @@
 name: txot-tin-nong-lai-suat-bi-can-thiep-giam-xuong
 type: script
 format: trong-xe-o-to
+workflow-tags:
+  - news
 branch: VJ-Dat
 status: raw
 created: '2026-04-10'

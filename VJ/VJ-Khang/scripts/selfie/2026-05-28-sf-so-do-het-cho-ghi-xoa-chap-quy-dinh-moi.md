@@ -2,6 +2,8 @@
 name: 2026-05-28-sf-so-do-het-cho-ghi-xoa-chap-quy-dinh-moi
 type: script
 format: selfie
+workflow-tags:
+  - news
 branch: VJ-Khang
 status: raw
 created: '2026-05-28'

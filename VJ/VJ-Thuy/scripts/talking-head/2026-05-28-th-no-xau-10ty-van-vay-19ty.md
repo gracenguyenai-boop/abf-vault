@@ -2,6 +2,8 @@
 name: 2026-05-28-th-no-xau-10ty-van-vay-19ty
 type: script
 format: talking-head
+workflow-tags:
+  - case-study
 branch: VJ-Thuy
 status: raw
 created: '2026-05-28'

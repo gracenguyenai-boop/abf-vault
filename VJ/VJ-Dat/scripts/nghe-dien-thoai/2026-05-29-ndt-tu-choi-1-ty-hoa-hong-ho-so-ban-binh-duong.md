@@ -2,6 +2,8 @@
 name: ndt-tu-choi-1-ty-hoa-hong-ho-so-ban-binh-duong
 type: script
 format: nghe-dien-thoai
+workflow-tags:
+  - case-study
 branch: VJ-Dat
 status: raw
 created: '2026-05-29'

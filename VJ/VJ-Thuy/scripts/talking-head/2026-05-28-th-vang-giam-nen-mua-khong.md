@@ -2,6 +2,8 @@
 name: 2026-05-28-th-vang-giam-nen-mua-khong
 type: script
 format: talking-head
+workflow-tags:
+  - news
 branch: VJ-Thuy
 status: raw
 created: '2026-05-28'

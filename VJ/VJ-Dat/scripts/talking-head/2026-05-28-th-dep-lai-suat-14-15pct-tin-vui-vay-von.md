@@ -2,6 +2,8 @@
 name: 2026-05-28-th-dep-lai-suat-14-15pct-tin-vui-vay-von
 type: script
 format: talking-head
+workflow-tags:
+  - news
 branch: VJ-Dat
 status: raw
 created: '2026-05-28'

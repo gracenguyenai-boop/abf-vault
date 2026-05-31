@@ -2,6 +2,9 @@
 name: 2026-05-28-th-phi-phat-tra-no-truoc-han-giai-thich
 type: script
 format: talking-head
+workflow-tags:
+  - news
+  - case-study
 branch: VJ-Khang
 status: raw
 created: '2026-05-28'

@@ -2,6 +2,8 @@
 name: 2026-05-28-th-vang-tau-luon-sieu-toc-3-ly-do
 type: script
 format: talking-head
+workflow-tags:
+  - news
 branch: VJ-Khang
 status: raw
 created: '2026-05-28'

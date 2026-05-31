@@ -2,6 +2,9 @@
 name: 2026-05-28-th-bay-mua-sam-the-tra-sau
 type: script
 format: talking-head
+workflow-tags:
+  - news
+  - case-study
 branch: VJ-Thuy
 status: raw
 created: '2026-05-28'

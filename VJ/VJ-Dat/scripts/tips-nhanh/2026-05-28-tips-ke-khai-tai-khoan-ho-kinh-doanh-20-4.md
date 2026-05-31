@@ -2,6 +2,9 @@
 name: tips-ke-khai-tai-khoan-ho-kinh-doanh-20-4
 type: script
 format: tips-nhanh
+workflow-tags:
+  - news
+  - case-study
 branch: VJ-Dat
 status: raw
 created: '2026-05-28'

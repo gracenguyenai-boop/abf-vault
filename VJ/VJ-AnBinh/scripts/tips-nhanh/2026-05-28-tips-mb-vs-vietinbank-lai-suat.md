@@ -2,6 +2,8 @@
 name: tips-mb-vs-vietinbank-lai-suat
 type: script
 format: tips-nhanh
+workflow-tags:
+  - news
 branch: VJ-AnBinh
 status: raw
 created: '2026-05-28'

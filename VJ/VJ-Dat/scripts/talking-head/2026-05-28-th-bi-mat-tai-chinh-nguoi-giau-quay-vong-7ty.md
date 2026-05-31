@@ -2,6 +2,9 @@
 name: 2026-05-28-th-bi-mat-tai-chinh-nguoi-giau-quay-vong-7ty
 type: script
 format: talking-head
+workflow-tags:
+  - news
+  - case-study
 branch: VJ-Dat
 status: raw
 created: '2026-05-28'

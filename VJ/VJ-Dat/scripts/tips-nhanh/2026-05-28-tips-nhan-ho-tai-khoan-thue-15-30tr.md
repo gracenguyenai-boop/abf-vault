@@ -2,6 +2,9 @@
 name: tips-nhan-ho-tai-khoan-thue-15-30tr
 type: script
 format: tips-nhanh
+workflow-tags:
+  - news
+  - case-study
 branch: VJ-Dat
 status: raw
 created: '2026-05-28'

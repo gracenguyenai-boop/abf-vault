@@ -2,6 +2,8 @@
 name: 2026-05-28-th-can-bo-non-hua-hen-sai-mat-tien-mat-thoi-gian
 type: script
 format: talking-head
+workflow-tags:
+  - case-study
 branch: VJ-Dat
 status: raw
 created: '2026-05-28'

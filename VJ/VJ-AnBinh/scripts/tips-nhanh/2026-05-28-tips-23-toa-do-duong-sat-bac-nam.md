@@ -2,6 +2,8 @@
 name: tips-23-toa-do-duong-sat-bac-nam
 type: script
 format: tips-nhanh
+workflow-tags:
+  - news
 branch: VJ-AnBinh
 status: raw
 created: '2026-05-28'

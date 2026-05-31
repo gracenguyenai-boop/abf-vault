@@ -2,6 +2,8 @@
 name: tips-3-khu-vuc-sot-dat-sap-nhap-tinh
 type: script
 format: tips-nhanh
+workflow-tags:
+  - news
 branch: VJ-Dat
 status: raw
 created: '2026-05-28'
