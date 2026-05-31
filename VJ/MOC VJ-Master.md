@@ -14,7 +14,50 @@
 | **Khang** (Vay Hay) | `VJ/VJ-Khang/VJ-MOC/MOC-VJ-Khang.md` | Case Study | `VJ/VJ-Khang/VJ-01-Atomic/` |
 | **Thuỷ** (Vay Vốn) | `VJ/VJ-Thuy/VJ-MOC/MOC-VJ-Thuy.md` | Case Study | `VJ/VJ-Thuy/VJ-01-Atomic/` |
 
-**Mỗi MOC-VJ-[tên].md chứa:** DNA kênh · cấu trúc script chuẩn · hook style · CTA · điều không làm · path atomic notes.
+**Mỗi MOC-VJ-[tên].md chứa:** DNA kênh · cấu trúc script chuẩn · hook style · CTA · điều không làm · path atomic notes · **bảng Rule Files theo format**.
+
+---
+
+## Rule Files — Inventory Toàn Bộ 4 Kênh
+
+> ⚠️ **Quy tắc bắt buộc:** Khi viết script theo format cụ thể → đọc `_RULE-[vj]-[format].md` tương ứng TRƯỚC KHI viết bất kỳ dòng nào. Chi tiết path xem trong MOC-VJ riêng của từng kênh.
+
+### VJ An Bình
+
+| Format | Scripts | Confidence |
+|---|---|---|
+| Talking Head | 30 | ✅ Full |
+| Tips Ngắn | 16 | ✅ Full |
+
+### VJ Đạt
+
+| Format | Scripts | Confidence |
+|---|---|---|
+| Talking Head | 9 | ✅ Full |
+| Tips Ngắn | 12 | ✅ Full |
+| Trong Xe Ô Tô | 10 | ✅ Full |
+| Nghe Điện Thoại | 2 | ⚠️ Draft |
+| Cầm Giấy Tờ | 1 | ⚠️ Draft |
+
+> 📌 Voice Fingerprint cross-format của Đạt (áp dụng cho mọi format): Section D trong `_RULE-dat-nghe-dien-thoai.md`
+
+### VJ Khang
+
+| Format | Scripts | Confidence |
+|---|---|---|
+| Talking Head | — | ✅ Full |
+| Tips Ngắn | — | ✅ Full |
+| Giải Quyết Thực Địa | — | ✅ Full |
+| Selfie | — | ✅ Full |
+| Tư Vấn Hội Thoại | — | ✅ Full |
+
+### VJ Thuỷ
+
+| Format | Scripts | Confidence |
+|---|---|---|
+| Talking Head | — | ✅ Full |
+| Tips Ngắn | — | ✅ Full |
+| Đóng Vai | — | ✅ Full |
 
 ---
 
@@ -37,12 +80,13 @@
 ```
 Bước 1: Xác định tên VJ từ input (An Bình / Đạt / Khang / Thuỷ)
 Bước 2: Đọc MOC-VJ-[tên].md tương ứng → lấy DNA (tone, hook style, CTA, điều không làm)
-Bước 3: Đọc VJ-01-Atomic/framework/ của kênh đó → hook formula cụ thể
-Bước 4: Đọc VJ-01-Atomic/insight/ → tham khảo insight đã proven
-Bước 5: Viết script theo cấu trúc chuẩn của kênh đó
+Bước 3: Xác định format (Talking Head / Tips / Thực địa / ...)
+Bước 4: Đọc _RULE-[vj]-[format].md trong folder format → blueprint + checklist
+Bước 5: Đọc VJ-01-Atomic/insight/ → tham khảo insight đã proven
+Bước 6: Viết script theo cấu trúc chuẩn của kênh + format đó
 ```
 
-> Nếu không biết VJ nào → hỏi lại trước khi viết. Không dùng chung DNA giữa các kênh.
+> Nếu không biết VJ nào → hỏi lại trước khi viết. Không dùng chung DNA giữa các kênh. Không bỏ qua Bước 4 — Rule File là nguồn sự thật duy nhất về format.
 
 ---
 

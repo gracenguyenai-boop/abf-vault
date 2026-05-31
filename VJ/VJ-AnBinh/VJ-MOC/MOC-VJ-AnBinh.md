@@ -42,6 +42,17 @@
 
 ---
 
+## Rule Files — Đọc Trước Khi Viết Script
+
+> ⚠️ Khi viết script theo format cụ thể: đọc file `_RULE` tương ứng TRƯỚC KHI viết bất kỳ dòng nào.
+
+| Format | Rule File | Scripts phân tích | Confidence |
+|---|---|---|---|
+| **Talking Head** | `scripts/talking-head/_RULE-anbinh-talking-head.md` | 30 | ✅ Full |
+| **Tips Ngắn** | `scripts/tips-nhanh/_RULE-anbinh-tips-ngan.md` | 16 | ✅ Full |
+
+---
+
 ## Workflow Kênh Này Dùng
 
 **News Viral** — mapping đầy đủ tại [[MOC VJ-Master]]
@@ -50,6 +61,7 @@
 Hook source   → VJ-01-Atomic/framework/ + CC/L3-KienThucDacThu/
 Banking       → LS/LS-01-Atomic/L2-L3/
 Macro         → TD/TD-01-Atomic/L3/TC/
+Rule file     → scripts/[format]/_RULE-anbinh-[format].md   ← ĐỌC TRƯỚC
 Script output → scripts/[YYYY-MM-DD]-[topic].md
 Feed Loop     → VJ-01-Atomic/insight/insight-[date]-[topic].md
 ```

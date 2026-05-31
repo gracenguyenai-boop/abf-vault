@@ -43,6 +43,22 @@
 
 ---
 
+## Rule Files — Đọc Trước Khi Viết Script
+
+> ⚠️ Khi viết script theo format cụ thể: đọc file `_RULE` tương ứng TRƯỚC KHI viết bất kỳ dòng nào.
+
+| Format | Rule File | Scripts phân tích | Confidence |
+|---|---|---|---|
+| **Talking Head** | `scripts/talking-head/_RULE-dat-talking-head.md` | 9 | ✅ Full |
+| **Tips Ngắn** | `scripts/tips-nhanh/_RULE-dat-tips-ngan.md` | 12 | ✅ Full |
+| **Trong Xe Ô Tô** | `scripts/trong-xe-o-to/_RULE-dat-trong-xe-o-to.md` | 10 | ✅ Full |
+| **Nghe Điện Thoại** | `scripts/nghe-dien-thoai/_RULE-dat-nghe-dien-thoai.md` | 2 | ⚠️ Draft |
+| **Cầm Giấy Tờ** | `scripts/cam-giay-to/_RULE-dat-cam-giay-to.md` | 1 | ⚠️ Draft |
+
+> 📌 **Voice Fingerprint cross-format** (áp dụng cho mọi format của Đạt): xem Section D trong `_RULE-dat-nghe-dien-thoai.md`
+
+---
+
 ## Workflow Kênh Này Dùng
 
 **Case Study** — mapping đầy đủ tại [[MOC VJ-Master]]
@@ -51,6 +67,7 @@
 4F template   → LS/LS-01-Atomic/L4-PDCA/_template-4fcase.md
 Macro         → TD/TD-01-Atomic/L3/TC/ + /BDS/
 Hook source   → VJ-01-Atomic/framework/ + CC/L3/
+Rule file     → scripts/[format]/_RULE-dat-[format].md   ← ĐỌC TRƯỚC
 Script output → scripts/[YYYY-MM-DD]-[case].md
 Feed Loop     → VJ-01-Atomic/insight/insight-[date]-[case].md
 ```

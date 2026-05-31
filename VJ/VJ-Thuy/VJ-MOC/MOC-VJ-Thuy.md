@@ -43,12 +43,25 @@
 
 ---
 
+## Rule Files — Đọc Trước Khi Viết Script
+
+> ⚠️ Khi viết script theo format cụ thể: đọc file `_RULE` tương ứng TRƯỚC KHI viết bất kỳ dòng nào.
+
+| Format | Rule File | Scripts phân tích | Confidence |
+|---|---|---|---|
+| **Talking Head** | `scripts/talking-head/_RULE-thuy-talking-head.md` | — | ✅ Full |
+| **Tips Ngắn** | `scripts/tips-nhanh/_RULE-thuy-tips-nhanh.md` | — | ✅ Full |
+| **Đóng Vai** | `scripts/dong-vai/_RULE-thuy-dong-vai.md` | — | ✅ Full |
+
+---
+
 ## Workflow: Case Study
 
 ```
 4F template   → LS/LS-01-Atomic/L4-PDCA/_template-4fcase.md
 Macro         → TD/TD-01-Atomic/L3/TC/ + /BDS/
 Hook source   → VJ-01-Atomic/framework/ + CC/L3/
+Rule file     → scripts/[format]/_RULE-thuy-[format].md   ← ĐỌC TRƯỚC
 Script output → scripts/[YYYY-MM-DD]-[case].md
 Feed Loop     → VJ-01-Atomic/insight/insight-[date]-[case].md
 ```

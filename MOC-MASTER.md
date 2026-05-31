@@ -81,10 +81,12 @@ TIER 3   (shells)    7 notes    94 notes    1 note     47 scripts Khang
 | Sub-MOC | Nội dung | Trạng thái |
 |---|---|---|
 | MOC-VJ-Templates | Index 7 templates dùng chung | ✅ |
-| MOC-VJ-AnBinh | DNA kênh: bàn cà phê, phân khúc 10–30 tỷ, tone chiến lược | ✅ 1 strategy note |
-| MOC-VJ-Dat | DNA kênh: bảng văn phòng, KH phổ thông, SERIES TỐI GIẢN | ✅ 1 strategy note |
-| MOC-VJ-Khang | 47 scripts + DNA hành trình phục vụ KH 1–10 tỷ | ✅ 1 strategy note |
-| MOC-VJ-Thuy | DNA kênh: 2 vai đối lập, so sánh chi tiết, 1–5 tỷ | ✅ 1 strategy note |
+| MOC-VJ-AnBinh | DNA kênh + **2 Rule Files** (Talking Head · Tips Ngắn) | ✅ |
+| MOC-VJ-Dat | DNA kênh + **5 Rule Files** (TH · Tips · Xe ô tô · Điện thoại · Giấy tờ) | ✅ |
+| MOC-VJ-Khang | DNA kênh + **5 Rule Files** (TH · Tips · Thực địa · Selfie · Hội thoại) | ✅ |
+| MOC-VJ-Thuy | DNA kênh + **3 Rule Files** (TH · Tips · Đóng vai) | ✅ |
+
+> **Rule Files** (`_RULE-[vj]-[format].md`) là blueprint viết script theo từng format — đọc TRƯỚC KHI viết. Inventory đầy đủ tại [[MOC VJ-Master]].
 
 ---
 

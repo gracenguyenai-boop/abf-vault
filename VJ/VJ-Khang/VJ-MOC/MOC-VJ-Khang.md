@@ -43,12 +43,27 @@
 
 ---
 
+## Rule Files — Đọc Trước Khi Viết Script
+
+> ⚠️ Khi viết script theo format cụ thể: đọc file `_RULE` tương ứng TRƯỚC KHI viết bất kỳ dòng nào.
+
+| Format | Rule File | Scripts phân tích | Confidence |
+|---|---|---|---|
+| **Talking Head** | `scripts/talking-head/_RULE-khang-talking-head.md` | — | ✅ Full |
+| **Tips Ngắn** | `scripts/tips-nhanh/_RULE-khang-tips-ngan.md` | — | ✅ Full |
+| **Giải Quyết Thực Địa** | `scripts/giai-quyet-thuc-dia/_RULE-khang-giai-quyet-thuc-dia.md` | — | ✅ Full |
+| **Selfie** | `scripts/selfie/_RULE-khang-selfie.md` | — | ✅ Full |
+| **Tư Vấn Hội Thoại** | `scripts/tu-van-hoi-thoai/_RULE-khang-tu-van-hoi-thoai.md` | — | ✅ Full |
+
+---
+
 ## Workflow: Case Study
 
 ```
 4F template   → [[LS-L4-MOC]] → _template-4fcase.md
 Macro         → [[TD-L3-TC-MOC]] + [[TD-L3-BDS-MOC]]
 Hook source   → [[CC-L3-MOC]] (khi có notes) hoặc xem scripts cùng loại
+Rule file     → scripts/[format]/_RULE-khang-[format].md   ← ĐỌC TRƯỚC
 Script output → scripts/[YYYY-MM-DD]-[case].md
 Feed Loop     → VJ-01-Atomic/insight/insight-[date]-[case].md
 ```
