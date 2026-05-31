@@ -22,66 +22,52 @@ WebFetch: https://raw.githubusercontent.com/gracenguyenai-boop/abf-vault/main/<p
 
 ## ⚡ BOOTSTRAP — Khi nhận BẤT KỲ prompt nào
 
-⛔ DỪNG. Dùng **AskUserQuestion tool** cho từng bước — tool này render thành nút bấm thật trong Claude Code UI. KHÔNG in text options, KHÔNG tự đoán.
+⛔ DỪNG. Gọi **AskUserQuestion tool** — gộp thành **2 lần submit**, không phải 4.
 
-> **Shortcut rule:** Nếu prompt đã chứa đủ thông tin (ví dụ: *"thuỷ case study đóng vai"*) → extract các field đã có, chỉ hỏi bước còn thiếu.
-
----
-
-**BƯỚC 1 — Gọi AskUserQuestion:**
-```
-question: "🎬 Chọn kênh:"
-header: "Kênh"
-options:
-  - label: "An Bình Vay Vốn",  description: "VJ An Bình"
-  - label: "Khang Vay Hay",    description: "VJ Khang"
-  - label: "Thuỷ Vay Vốn",     description: "VJ Thuỷ"
-  - label: "Đặt Vay Đơn Giản", description: "VJ Đặt"
-```
-
-⛔ Chờ kết quả. Không chạy bước 2 trước khi có kết quả bước 1.
+> **Shortcut rule:** Nếu prompt đã chứa đủ thông tin (ví dụ: *"thuỷ case study đóng vai"*) → extract field đã có, chỉ hỏi phần còn thiếu.
 
 ---
 
-**BƯỚC 2 — Gọi AskUserQuestion** *(sau khi có VJ)*
-
-Workflow options theo VJ:
-- An Bình → 4 options: News Viral / Case Study / Kiến Thức Vay Vốn / An Bình Là Ai
-- Khang / Thuỷ / Đặt → 2 options: News Viral / Case Study
+**LẦN GỌI 1 — VJ + Workflow cùng lúc (1 submit):**
 
 ```
-question: "Chọn workflow:"
-header: "Workflow"
-options: [danh sách theo VJ đã chọn]
+questions: [
+  {
+    question: "🎬 Chọn kênh:",
+    header: "Kênh",
+    options: [
+      { label: "An Bình Vay Vốn", description: "VJ An Bình" },
+      { label: "Khang Vay Hay",   description: "VJ Khang" },
+      { label: "Thuỷ Vay Vốn",    description: "VJ Thuỷ" },
+      { label: "Đặt Vay Đơn Giản",description: "VJ Đặt" }
+    ]
+  },
+  {
+    question: "Chọn workflow:",
+    header: "Workflow",
+    options: [
+      { label: "News Viral",            description: "Tin tức / thời sự" },
+      { label: "Case Study",            description: "Hồ sơ vay vốn thực tế" },
+      { label: "Kiến Thức Vay Vốn",     description: "Chỉ dùng cho An Bình" },
+      { label: "An Bình Là Ai",         description: "Chỉ dùng cho An Bình" }
+    ]
+  }
+]
 ```
 
-⛔ Chờ kết quả.
+⛔ Chờ kết quả. Không chạy lần gọi 2 trước khi có đủ VJ + Workflow.
 
 ---
 
-**BƯỚC 3 — Gọi AskUserQuestion** *(sau khi có VJ + Workflow)*
+**LẦN GỌI 2 — Nội dung + Format cùng lúc (1 submit):**
 
-Không dùng AskUserQuestion cho bước này. Thay vào đó in trực tiếp 1 dòng hỏi và chờ user reply:
+Câu hỏi nội dung theo workflow:
+- News Viral         → `"Nội dung news cần phân tích:"`
+- Case Study         → `"Nội dung case cần phân tích:"`
+- Kiến Thức Vay Vốn  → `"Chủ đề cần phân tích:"`
+- An Bình Là Ai      → `"Nội dung cần phân tích:"`
 
-```
-✅ Kênh: [X]   Workflow: [Y]
-
-[Label theo workflow] ↓
-```
-
-Label theo workflow:
-- News Viral        → `Nội dung news cần phân tích — dán link hoặc mô tả vào đây:`
-- Case Study        → `Nội dung case cần phân tích — dán file hồ sơ / ghi chú 4F vào đây:`
-- Kiến Thức Vay Vốn → `Chủ đề cần phân tích — nhập vào đây:`
-- An Bình Là Ai     → `Nội dung cần phân tích — nhập vào đây:`
-
-⛔ DỪNG — chờ user reply thẳng vào chat. Không wrap trong AskUserQuestion.
-
----
-
-**BƯỚC 4 — Gọi AskUserQuestion** *(sau khi có VJ + Workflow + Nội dung)*
-
-Chỉ đưa vào options các format hợp lệ theo bảng sau:
+Format options theo VJ × Workflow:
 
 | VJ | News Viral | Case Study |
 |---|---|---|
@@ -91,9 +77,23 @@ Chỉ đưa vào options các format hợp lệ theo bảng sau:
 | Đặt | talking-head, tips-nhanh | talking-head, tips-nhanh, trong-xe-o-to, nghe-dien-thoai, cam-giay-to |
 
 ```
-question: "Chọn format quay:"
-header: "Format"
-options: [chỉ format hợp lệ theo bảng trên]
+questions: [
+  {
+    question: "[câu hỏi nội dung theo workflow]",
+    header: "Nội dung",
+    options: [
+      { label: "Dán nội dung vào ô bên dưới", description: "Nhập link hoặc mô tả" }
+    ]
+  },
+  {
+    question: "Chọn format quay:",
+    header: "Format",
+    options: [chỉ format hợp lệ theo bảng VJ × Workflow]
+  }
+]
+```
+
+⛔ Chờ kết quả — user nhập nội dung vào "Other" và chọn format, submit 1 lần.
 ```
 
 ⛔ Chờ kết quả. KHÔNG tự đoán.
