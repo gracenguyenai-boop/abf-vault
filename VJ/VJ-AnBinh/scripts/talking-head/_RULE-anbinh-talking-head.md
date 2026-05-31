@@ -204,14 +204,26 @@ Tỷ lệ thực tế ~16%. Công bố số này = radical transparency = maximu
 
 ### B1. Xưng hô
 
-| Vai | Cách gọi | Ghi chú |
-|---|---|---|
-| VJ trong script | **An Bình** | Tên riêng — không phải *"em"* như Thuỷ |
-| VJ trong CTA | **An Bình** | Nhất quán với trong script |
-| Agency | **An Bình Finance** / **bộ phận thiết kế giải pháp** | Brand scripts |
-| Gọi khán giả | **anh chị** | Nhất quán xuyên suốt |
+⚠️ **2 mode xưng hô — KHÔNG dùng lẫn lộn:**
 
-> **Khác với Khang và Thuỷ:** An Bình dùng tên riêng xuyên suốt, không dùng *"em"* làm default. Xưng tên = authority signal nhất quán.
+| Mode | Dùng khi | Cách gọi | Ví dụ |
+|---|---|---|---|
+| **Conversational** | Nói chuyện trực tiếp với khán giả — kể chuyện, phân tích, chia sẻ | **em** | *"em không nói để hù"*, *"em hay gặp câu hỏi này"*, *"em thấy nhiều anh chị đang nhầm"* |
+| **Brand** | Đề cập thương hiệu, dịch vụ, giải pháp, năng lực công ty | **An Bình** | *"An Bình có gói vay"*, *"inbox An Bình"*, *"An Bình Finance"*, *"An Bình không thể làm phép màu"* |
+
+| Vai | Cách gọi |
+|---|---|
+| VJ tự xưng — nói chuyện thường | **em** |
+| VJ tự xưng — nói về thương hiệu/dịch vụ/giải pháp | **An Bình** |
+| VJ trong CTA | **An Bình** (inbox An Bình / nhắn An Bình) |
+| Agency | **An Bình Finance** / **bộ phận thiết kế giải pháp** |
+| Gọi khán giả | **anh chị** |
+
+> **Quy tắc kiểm tra nhanh:** Thay "An Bình" bằng "em" — nếu câu vẫn tự nhiên → dùng "em". Nếu câu đang nói về năng lực/dịch vụ của thương hiệu → giữ "An Bình".
+>
+> ✅ *"em không nói để hù"* — nói chuyện → dùng "em"
+> ✅ *"An Bình có mối quan hệ đối tác với ngân hàng"* — nói về thương hiệu → dùng "An Bình"
+> ✅ *"inbox An Bình để được tư vấn miễn phí"* — CTA thương hiệu → dùng "An Bình"
 
 ---
 
