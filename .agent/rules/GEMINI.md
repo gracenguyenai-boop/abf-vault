@@ -40,92 +40,62 @@ MEMORY/decisions.md
 
 ### Khi nhận BẤT KỲ prompt nào từ VJ:
 
-⛔ DỪNG. Hiển thị từng bước dưới dạng **chip lựa chọn bấm được** — mỗi bước chờ VJ bấm xong mới hiện bước tiếp. KHÔNG gộp bước, KHÔNG tự đoán.
+⛔ DỪNG. Hiển thị **2 vòng chip liền mạch** — vòng 2 hiện ngay sau vòng 1, không có bước nào ở giữa. KHÔNG tự đoán.
 
-> **Shortcut rule:** Nếu prompt đã chứa đủ thông tin (ví dụ: *"thuỷ case study đóng vai"*) → extract field đã có, chỉ hỏi bước còn thiếu.
-
----
-
-**BƯỚC 1 — Chọn kênh** *(hiện dạng chip 4 lựa chọn)*
-
-```
-🎬 ABF Workflow — Chọn kênh:
-
-  ╔══════════════════════╗  ╔══════════════════════╗
-  ║  An Bình Vay Vốn     ║  ║  Khang Vay Hay       ║
-  ╚══════════════════════╝  ╚══════════════════════╝
-  ╔══════════════════════╗  ╔══════════════════════╗
-  ║  Thuỷ Vay Vốn        ║  ║  Đặt Vay Đơn Giản    ║
-  ╚══════════════════════╝  ╚══════════════════════╝
-```
-
-⛔ DỪNG — chờ VJ bấm. Không hiện bước 2 trước khi có kết quả.
+> **Shortcut rule:** Nếu prompt đã chứa đủ thông tin (ví dụ: *"thuỷ case study đóng vai"*) → extract field đã có, bỏ qua các vòng tương ứng, chạy PHASE 0 luôn.
 
 ---
 
-**BƯỚC 2 — Chọn workflow** *(hiện dạng chip sau khi có VJ)*
-
-Chỉ hiện workflow hợp lệ của VJ đó:
-
-| VJ | Chip hiển thị |
-|---|---|
-| An Bình | `News Viral` `Case Study` `Kiến Thức Vay Vốn` `An Bình Là Ai` |
-| Khang / Thuỷ / Đặt | `News Viral` `Case Study` |
+**VÒNG 1 — Kênh + Workflow (2 chip cùng lúc):**
 
 ```
-✅ Kênh: [tên VJ] — Chọn workflow:
+🎬 ABF Workflow
 
+Chọn kênh:
+  ╔══════════════════╗  ╔══════════════════╗
+  ║ An Bình Vay Vốn  ║  ║ Khang Vay Hay    ║
+  ╚══════════════════╝  ╚══════════════════╝
+  ╔══════════════════╗  ╔══════════════════╗
+  ║ Thuỷ Vay Vốn     ║  ║ Đặt Vay Đơn Giản ║
+  ╚══════════════════╝  ╚══════════════════╝
+
+Chọn workflow:
   ╔══════════════╗  ╔══════════════╗
-  ║  News Viral  ║  ║  Case Study  ║
+  ║ News Viral   ║  ║ Case Study   ║
   ╚══════════════╝  ╚══════════════╝
-  [+ thêm nếu An Bình]
+  [+ Kiến Thức Vay Vốn · An Bình Là Ai — chỉ hiện nếu VJ = An Bình]
 ```
 
-⛔ DỪNG — chờ VJ bấm.
+⛔ DỪNG — chờ VJ chọn xong cả 2. **Ngay lập tức** hiện VÒNG 2 — không in text, không xử lý gì ở giữa.
 
 ---
 
-**BƯỚC 3 — Nhập nội dung** *(hiện sau khi có VJ + Workflow)*
+**VÒNG 2 — Nội dung + Format đã lọc (2 chip cùng lúc):**
 
-In trực tiếp 1 dòng hỏi — KHÔNG dùng chip hay form, chờ VJ reply thẳng vào chat:
+Dòng hỏi nội dung theo workflow:
+- News Viral        → `Nội dung news cần phân tích — dán link hoặc mô tả:`
+- Case Study        → `Nội dung case cần phân tích — dán file hồ sơ / ghi chú 4F:`
+- Kiến Thức Vay Vốn → `Chủ đề cần phân tích:`
+- An Bình Là Ai     → `Nội dung cần phân tích:`
 
-| Workflow | Dòng hiển thị |
-|---|---|
-| News Viral | `Nội dung news cần phân tích — dán link hoặc mô tả vào đây:` |
-| Case Study | `Nội dung case cần phân tích — dán file hồ sơ / ghi chú 4F vào đây:` |
-| Kiến Thức Vay Vốn | `Chủ đề cần phân tích — nhập vào đây:` |
-| An Bình Là Ai | `Nội dung cần phân tích — nhập vào đây:` |
+Format chip — **chỉ hiện format hợp lệ theo bảng VJ × Workflow:**
 
-```
-✅ Kênh: [X]  Workflow: [Y]
-
-[Dòng theo workflow] ↓
-```
-
-⛔ DỪNG — chờ VJ reply thẳng. Không wrap trong chip hay form.
-
----
-
-**BƯỚC 4 — Chọn format** *(hiện dạng chip sau khi có VJ + Workflow + Nội dung)*
-
-Chỉ đưa vào chip các format hợp lệ theo bảng:
-
-| VJ | News Viral | Case Study |
-|---|---|---|
-| An Bình | talking-head · tips-nhanh | talking-head · tips-nhanh |
-| Khang | talking-head · tips-nhanh | talking-head · tips-nhanh · giai-quyet-thuc-dia · selfie · tu-van-hoi-thoai |
-| Thuỷ | talking-head · tips-nhanh | talking-head · tips-nhanh · dong-vai |
-| Đặt | talking-head · tips-nhanh | talking-head · tips-nhanh · trong-xe-o-to · nghe-dien-thoai · cam-giay-to |
+| VJ | News Viral | Case Study | KTVV / ABLA |
+|---|---|---|---|
+| An Bình | talking-head · tips-nhanh | talking-head · tips-nhanh | talking-head · tips-nhanh |
+| Khang | talking-head · tips-nhanh | talking-head · tips-nhanh · giai-quyet-thuc-dia · selfie · tu-van-hoi-thoai | — |
+| Thuỷ | talking-head · tips-nhanh | talking-head · tips-nhanh · dong-vai | — |
+| Đặt | talking-head · tips-nhanh | talking-head · tips-nhanh · trong-xe-o-to · nghe-dien-thoai · cam-giay-to | — |
 
 ```
-✅ Kênh: [X]   Workflow: [Y]   Nội dung: nhận ✓
+[Dòng hỏi nội dung theo workflow] ↓
+→ _______________________________________________
 
 Chọn format quay:
-
-  [chỉ hiện format hợp lệ theo bảng trên]
+  [chỉ chip format hợp lệ của VJ × Workflow đã chọn]
 ```
 
-⛔ DỪNG — chờ VJ chọn. KHÔNG tự đoán format.
+⛔ DỪNG — chờ VJ nhập nội dung và chọn format. Sau khi có đủ → lưu working memory → chạy PHASE 0 ngay.
 
 ---
 
