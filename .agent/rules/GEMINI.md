@@ -87,21 +87,22 @@ Chỉ hiện workflow hợp lệ của VJ đó:
 
 **BƯỚC 3 — Nhập nội dung** *(hiện sau khi có VJ + Workflow)*
 
-| Workflow | Câu hỏi |
+In trực tiếp 1 dòng hỏi — KHÔNG dùng chip hay form, chờ VJ reply thẳng vào chat:
+
+| Workflow | Dòng hiển thị |
 |---|---|
-| News Viral | `Dán link bài báo hoặc mô tả tin tức:` |
-| Case Study | `Dán file hồ sơ / mô tả case / ghi chú 4F:` |
-| Kiến Thức Vay Vốn | `Nhập chủ đề kiến thức vay vốn:` |
-| An Bình Là Ai | `Nhập nội dung / góc nhìn muốn khai thác:` |
+| News Viral | `Nội dung news cần phân tích — dán link hoặc mô tả vào đây:` |
+| Case Study | `Nội dung case cần phân tích — dán file hồ sơ / ghi chú 4F vào đây:` |
+| Kiến Thức Vay Vốn | `Chủ đề cần phân tích — nhập vào đây:` |
+| An Bình Là Ai | `Nội dung cần phân tích — nhập vào đây:` |
 
 ```
 ✅ Kênh: [X]  Workflow: [Y]
 
-[Câu hỏi theo workflow]
-→ _______________________________________________
+[Dòng theo workflow] ↓
 ```
 
-⛔ DỪNG — chờ VJ nhập.
+⛔ DỪNG — chờ VJ reply thẳng. Không wrap trong chip hay form.
 
 ---
 

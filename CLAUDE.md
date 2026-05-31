@@ -61,22 +61,21 @@ options: [danh sách theo VJ đã chọn]
 
 **BƯỚC 3 — Gọi AskUserQuestion** *(sau khi có VJ + Workflow)*
 
-Chỉ 1 ô nhập tự do — KHÔNG có options, để user dán thẳng nội dung vào "Other":
+Không dùng AskUserQuestion cho bước này. Thay vào đó in trực tiếp 1 dòng hỏi và chờ user reply:
 
 ```
-question: "[câu hỏi theo workflow]"
-header: "Nội dung"
-options:
-  - label: "Nội dung news cần phân tích", description: "Dán link hoặc mô tả vào ô bên dưới"
+✅ Kênh: [X]   Workflow: [Y]
+
+[Label theo workflow] ↓
 ```
 
-Câu hỏi theo workflow:
-- News Viral       → `"Nội dung news cần phân tích:"`
-- Case Study       → `"Nội dung case cần phân tích:"`
-- Kiến Thức Vay Vốn → `"Chủ đề cần phân tích:"`
-- An Bình Là Ai    → `"Nội dung cần phân tích:"`
+Label theo workflow:
+- News Viral        → `Nội dung news cần phân tích — dán link hoặc mô tả vào đây:`
+- Case Study        → `Nội dung case cần phân tích — dán file hồ sơ / ghi chú 4F vào đây:`
+- Kiến Thức Vay Vốn → `Chủ đề cần phân tích — nhập vào đây:`
+- An Bình Là Ai     → `Nội dung cần phân tích — nhập vào đây:`
 
-⛔ Chờ kết quả — user sẽ chọn "Other" và nhập thẳng nội dung.
+⛔ DỪNG — chờ user reply thẳng vào chat. Không wrap trong AskUserQuestion.
 
 ---
 
