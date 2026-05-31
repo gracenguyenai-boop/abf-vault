@@ -40,46 +40,102 @@ MEMORY/decisions.md
 
 ### Khi nhận BẤT KỲ prompt nào từ VJ:
 
-⛔ DỪNG. Thu thập đủ 4 thông tin theo 2 bước — KHÔNG chạy gì trước khi có đủ.
+⛔ DỪNG. Chạy 4 bước tuần tự — mỗi bước chờ input trước khi hiện bước tiếp. KHÔNG gộp bước, KHÔNG tự đoán.
 
-**Bước A — Hiển thị form ①②③ trước:**
+> **Shortcut rule:** Nếu prompt của VJ đã chứa đủ thông tin (ví dụ: *"thuỷ case study đóng vai"*) → extract các field đã có, bỏ qua bước đó, chỉ hỏi bước còn thiếu (thường là Bước 3 — nội dung).
+
+---
+
+**BƯỚC 1 — Chọn kênh:**
 
 ```
-Mình cần xác nhận 4 thông tin trước khi bắt đầu:
+🎬 ABF Workflow
 
-① Chọn VJ:
-   [ A ] An Bình Vay Vốn     [ B ] Khang Vay Hay
-   [ C ] Thuỷ Vay Vốn        [ D ] Đặt Vay Đơn Giản
+Chọn kênh:
 
-② Chọn workflow:
-   [ 1 ] News Viral           [ 2 ] Case Study
-   [ 3 ] Kiến Thức Vay Vốn   [ 4 ] An Bình Là Ai
-
-③ Nội dung (dán link bài báo / mô tả case / chủ đề vào đây):
-   _______________________________________________
+  [ A ] An Bình Vay Vốn     [ B ] Khang Vay Hay
+  [ C ] Thuỷ Vay Vốn        [ D ] Đặt Vay Đơn Giản
 ```
 
-→ Chờ VJ điền ①②③. Thiếu bất kỳ mục nào → hỏi lại đúng mục đó, KHÔNG tự đoán.
+⛔ DỪNG — chờ VJ chọn. Không hiện bước 2 trước khi có kết quả bước 1.
 
-**Bước B — Sau khi có ①②③, hiển thị form ④ theo đúng VJ:**
+---
 
-Hiển thị danh sách format thực tế của VJ được chọn:
+**BƯỚC 2 — Chọn workflow** *(hiện sau khi có VJ)*
 
-| VJ | Danh sách format |
+Chỉ hiện workflow hợp lệ của VJ đó:
+
+| VJ | Workflow hiển thị |
 |---|---|
-| A — An Bình Vay Vốn | `[ 1 ] talking-head` `[ 2 ] tips-nhanh` |
-| B — Khang Vay Hay | `[ 1 ] talking-head` `[ 2 ] tips-nhanh` `[ 3 ] giai-quyet-thuc-dia` `[ 4 ] selfie` `[ 5 ] tu-van-hoi-thoai` |
-| C — Thuỷ Vay Vốn | `[ 1 ] talking-head` `[ 2 ] tips-nhanh` `[ 3 ] dong-vai` |
-| D — Đặt Vay Đơn Giản | `[ 1 ] talking-head` `[ 2 ] tips-nhanh` `[ 3 ] trong-xe-o-to` `[ 4 ] nghe-dien-thoai` `[ 5 ] cam-giay-to` |
+| A — An Bình | `[1] News Viral` `[2] Case Study` `[3] Kiến Thức Vay Vốn` `[4] An Bình Là Ai` |
+| B, C, D | `[1] News Viral` `[2] Case Study` |
 
 ```
-④ Chọn format quay:
-   [hiển thị đúng danh sách của VJ đã chọn ở ①]
+✅ Kênh: [tên VJ]
+
+Chọn workflow:
+
+  [hiển thị đúng danh sách theo VJ]
 ```
 
-→ Chờ VJ chọn ④. KHÔNG tự đoán format.
-→ Sau khi có đủ ①②③④ → lưu vào working memory:
+⛔ DỪNG — chờ VJ chọn. Không hiện bước 3 trước khi có kết quả bước 2.
+
+---
+
+**BƯỚC 3 — Nhập nội dung** *(hiện sau khi có VJ + Workflow)*
+
+Prompt nhập thay đổi theo workflow:
+
+| Workflow | Câu hỏi hiển thị |
+|---|---|
+| News Viral | `Dán link bài báo hoặc mô tả tin tức:` |
+| Case Study | `Dán file hồ sơ / mô tả case / ghi chú 4F:` |
+| Kiến Thức Vay Vốn | `Nhập chủ đề kiến thức vay vốn:` |
+| An Bình Là Ai | `Nhập nội dung / góc nhìn muốn khai thác:` |
+
+```
+✅ Kênh: [X]   Workflow: [Y]
+
+[Câu hỏi theo workflow]
+
+  _______________________________________________
+```
+
+⛔ DỪNG — chờ VJ nhập. Không hiện bước 4 trước khi có nội dung.
+
+---
+
+**BƯỚC 4 — Chọn format quay** *(hiện sau khi có VJ + Workflow + Nội dung)*
+
+Chỉ hiện format hợp lệ theo đúng tổ hợp VJ × Workflow:
+
+| VJ | News Viral | Case Study | KTVV | ABLA |
+|---|---|---|---|---|
+| A — An Bình | talking-head · tips-nhanh | talking-head · tips-nhanh | talking-head · tips-nhanh | talking-head · tips-nhanh |
+| B — Khang | talking-head · tips-nhanh | talking-head · tips-nhanh · giai-quyet-thuc-dia · selfie · tu-van-hoi-thoai | — | — |
+| C — Thuỷ | talking-head · tips-nhanh | talking-head · tips-nhanh · dong-vai | — | — |
+| D — Đặt | talking-head · tips-nhanh | talking-head · tips-nhanh · trong-xe-o-to · nghe-dien-thoai · cam-giay-to | — | — |
+
+```
+✅ Kênh: [X]   Workflow: [Y]   Nội dung: nhận ✓
+
+Chọn format quay:
+
+  [chỉ hiện format hợp lệ theo bảng trên]
+```
+
+⛔ DỪNG — chờ VJ chọn. KHÔNG tự đoán format.
+
+---
+
+→ Sau khi có đủ 4 bước → lưu working memory:
    `VJ = [X]` | `WORKFLOW = [Y]` | `FORMAT = [Z]` | `INPUT = [W]`
+
+```
+✅ Kênh: [X]   Workflow: [Y]   Format: [Z]   Nội dung: nhận ✓
+→ Đang khởi động PHASE 0...
+```
+
 → Chạy PHASE 0.
 → Sau Phase 0 → fetch workflow file từ vault → chạy từ Phase 1.
 ⛔ KHÔNG làm gì khác giữa Phase 0 và workflow.
