@@ -40,71 +40,45 @@ MEMORY/decisions.md
 
 ### Khi nhận BẤT KỲ prompt nào từ VJ:
 
-⛔ DỪNG. Chạy 4 bước tuần tự — KHÔNG gộp bước, KHÔNG tự đoán, KHÔNG chạy gì trước khi có đủ 4 xác nhận.
+⛔ DỪNG. Thu thập đủ 4 thông tin theo 2 bước — KHÔNG chạy gì trước khi có đủ.
 
----
-
-**BƯỚC 1 — Hiển thị 4 VJ, chờ chọn:**
+**Bước A — Hiển thị form ①②③ trước:**
 
 ```
-Chọn kênh:
+Mình cần xác nhận 4 thông tin trước khi bắt đầu:
 
+① Chọn VJ:
    [ A ] An Bình Vay Vốn     [ B ] Khang Vay Hay
    [ C ] Thuỷ Vay Vốn        [ D ] Đặt Vay Đơn Giản
-```
 
-→ Chờ VJ bấm. Chưa chọn → không hiển thị gì thêm.
+② Chọn workflow:
+   [ 1 ] News Viral           [ 2 ] Case Study
+   [ 3 ] Kiến Thức Vay Vốn   [ 4 ] An Bình Là Ai
 
----
-
-**BƯỚC 2 — Sau khi có VJ, hiển thị workflow hợp lệ của VJ đó, chờ chọn:**
-
-```
-Chọn workflow:
-
-   [ 1 ] News Viral       [ 2 ] Case Study
-```
-
-> ⚠️ Workflow 3 (KTVV) và 4 (ABLA) chỉ hiển thị nếu VJ = A (An Bình). Các VJ khác chỉ có 2 lựa chọn.
-
-→ Chờ VJ bấm. Chưa chọn → không hiển thị gì thêm.
-
----
-
-**BƯỚC 3 — Sau khi có VJ + Workflow, yêu cầu nhập nội dung:**
-
-```
-Dán nội dung vào đây:
-   (link bài báo / mô tả case / chủ đề / file hồ sơ)
-
+③ Nội dung (dán link bài báo / mô tả case / chủ đề vào đây):
    _______________________________________________
 ```
 
-→ Chờ VJ nhập. Chưa có nội dung → không tiếp tục.
+→ Chờ VJ điền ①②③. Thiếu bất kỳ mục nào → hỏi lại đúng mục đó, KHÔNG tự đoán.
 
----
+**Bước B — Sau khi có ①②③, hiển thị form ④ theo đúng VJ:**
 
-**BƯỚC 4 — Sau khi có VJ + Workflow + Nội dung, hiển thị format hợp lệ theo đúng tổ hợp VJ × Workflow:**
+Hiển thị danh sách format thực tế của VJ được chọn:
 
-> ⚠️ Format phải khớp cả VJ lẫn Workflow — không hiển thị format không có script mẫu hoặc không có _RULE.
-
-| VJ | News Viral | Case Study |
-|---|---|---|
-| A — An Bình | `[1] talking-head` `[2] tips-nhanh` | `[1] talking-head` `[2] tips-nhanh` |
-| B — Khang | `[1] talking-head` `[2] tips-nhanh` | `[1] talking-head` `[2] tips-nhanh` `[3] giai-quyet-thuc-dia` `[4] selfie` `[5] tu-van-hoi-thoai` |
-| C — Thuỷ | `[1] talking-head` `[2] tips-nhanh` | `[1] talking-head` `[2] tips-nhanh` `[3] dong-vai` |
-| D — Đặt | `[1] talking-head` `[2] tips-nhanh` | `[1] talking-head` `[2] tips-nhanh` `[3] trong-xe-o-to` `[4] nghe-dien-thoai` `[5] cam-giay-to` |
+| VJ | Danh sách format |
+|---|---|
+| A — An Bình Vay Vốn | `[ 1 ] talking-head` `[ 2 ] tips-nhanh` |
+| B — Khang Vay Hay | `[ 1 ] talking-head` `[ 2 ] tips-nhanh` `[ 3 ] giai-quyet-thuc-dia` `[ 4 ] selfie` `[ 5 ] tu-van-hoi-thoai` |
+| C — Thuỷ Vay Vốn | `[ 1 ] talking-head` `[ 2 ] tips-nhanh` `[ 3 ] dong-vai` |
+| D — Đặt Vay Đơn Giản | `[ 1 ] talking-head` `[ 2 ] tips-nhanh` `[ 3 ] trong-xe-o-to` `[ 4 ] nghe-dien-thoai` `[ 5 ] cam-giay-to` |
 
 ```
-Chọn format quay:
-   [hiển thị đúng cột của VJ × Workflow đã chọn]
+④ Chọn format quay:
+   [hiển thị đúng danh sách của VJ đã chọn ở ①]
 ```
 
-→ Chờ VJ bấm. KHÔNG tự đoán format.
-
----
-
-→ Sau khi có đủ 4 xác nhận → lưu vào working memory:
+→ Chờ VJ chọn ④. KHÔNG tự đoán format.
+→ Sau khi có đủ ①②③④ → lưu vào working memory:
    `VJ = [X]` | `WORKFLOW = [Y]` | `FORMAT = [Z]` | `INPUT = [W]`
 → Chạy PHASE 0.
 → Sau Phase 0 → fetch workflow file từ vault → chạy từ Phase 1.
