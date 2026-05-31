@@ -22,13 +22,13 @@ WebFetch: https://raw.githubusercontent.com/gracenguyenai-boop/abf-vault/main/<p
 
 ## ⚡ BOOTSTRAP — Khi nhận BẤT KỲ prompt nào
 
-⛔ DỪNG. Gọi **AskUserQuestion tool** — gộp thành **2 lần submit**, không phải 4.
+⛔ DỪNG. Gọi **AskUserQuestion tool 1 LẦN DUY NHẤT** với 4 câu hỏi cùng lúc — user điền hết rồi submit 1 lần.
 
-> **Shortcut rule:** Nếu prompt đã chứa đủ thông tin (ví dụ: *"thuỷ case study đóng vai"*) → extract field đã có, chỉ hỏi phần còn thiếu.
+> **Shortcut rule:** Nếu prompt đã chứa đủ thông tin → extract field đã có, bỏ qua AskUserQuestion, chạy PHASE 0 luôn.
 
 ---
 
-**LẦN GỌI 1 — VJ + Workflow cùng lúc (1 submit):**
+**GỌI AskUserQuestion với 4 câu hỏi:**
 
 ```
 questions: [
@@ -37,37 +37,49 @@ questions: [
     header: "Kênh",
     options: [
       { label: "An Bình Vay Vốn", description: "VJ An Bình" },
-      { label: "Khang Vay Hay",   description: "VJ Khang" },
-      { label: "Thuỷ Vay Vốn",    description: "VJ Thuỷ" },
-      { label: "Đặt Vay Đơn Giản",description: "VJ Đặt" }
+      { label: "Khang Vay Hay",   description: "VJ Khang"   },
+      { label: "Thuỷ Vay Vốn",    description: "VJ Thuỷ"    },
+      { label: "Đặt Vay Đơn Giản",description: "VJ Đặt"     }
     ]
   },
   {
     question: "Chọn workflow:",
     header: "Workflow",
     options: [
-      { label: "News Viral",            description: "Tin tức / thời sự" },
-      { label: "Case Study",            description: "Hồ sơ vay vốn thực tế" },
-      { label: "Kiến Thức Vay Vốn",     description: "Chỉ dùng cho An Bình" },
-      { label: "An Bình Là Ai",         description: "Chỉ dùng cho An Bình" }
+      { label: "News Viral",         description: "Tin tức / thời sự"        },
+      { label: "Case Study",         description: "Hồ sơ vay vốn thực tế"    },
+      { label: "Kiến Thức Vay Vốn",  description: "Chỉ dùng cho An Bình"     },
+      { label: "An Bình Là Ai",      description: "Chỉ dùng cho An Bình"     }
+    ]
+  },
+  {
+    question: "[Câu hỏi nội dung theo workflow — xem bảng dưới]",
+    header: "Nội dung",
+    options: [
+      { label: "→ Nhập vào ô bên dưới", description: "Dán link hoặc mô tả nội dung" },
+      { label: "Chưa có nội dung",      description: "Bỏ qua bước này"              }
+    ]
+  },
+  {
+    question: "Chọn format quay:",
+    header: "Format",
+    options: [
+      { label: "talking-head",          description: "Monologue — mọi kênh"         },
+      { label: "tips-nhanh",            description: "Tips ngắn — mọi kênh"         },
+      { label: "dong-vai / giai-quyet / trong-xe", description: "Format đặc biệt theo kênh" },
+      { label: "selfie / tu-van / nghe-dt / cam-giay", description: "Format đặc biệt theo kênh" }
     ]
   }
 ]
 ```
 
-⛔ Chờ kết quả. Không chạy lần gọi 2 trước khi có đủ VJ + Workflow.
-
----
-
-**LẦN GỌI 2 — Nội dung + Format cùng lúc (1 submit):**
-
 Câu hỏi nội dung theo workflow:
-- News Viral         → `"Nội dung news cần phân tích:"`
-- Case Study         → `"Nội dung case cần phân tích:"`
-- Kiến Thức Vay Vốn  → `"Chủ đề cần phân tích:"`
-- An Bình Là Ai      → `"Nội dung cần phân tích:"`
+- News Viral        → `"Nội dung news cần phân tích:"`
+- Case Study        → `"Nội dung case cần phân tích:"`
+- Kiến Thức Vay Vốn → `"Chủ đề cần phân tích:"`
+- An Bình Là Ai     → `"Nội dung cần phân tích:"`
 
-Format options theo VJ × Workflow:
+Format hợp lệ theo VJ × Workflow — **sau khi nhận kết quả, kiểm tra và báo lỗi nếu chọn sai combo:**
 
 | VJ | News Viral | Case Study |
 |---|---|---|
@@ -76,27 +88,7 @@ Format options theo VJ × Workflow:
 | Thuỷ | talking-head, tips-nhanh | talking-head, tips-nhanh, dong-vai |
 | Đặt | talking-head, tips-nhanh | talking-head, tips-nhanh, trong-xe-o-to, nghe-dien-thoai, cam-giay-to |
 
-```
-questions: [
-  {
-    question: "[câu hỏi nội dung theo workflow]",
-    header: "Nội dung",
-    options: [
-      { label: "Dán nội dung vào ô bên dưới", description: "Nhập link hoặc mô tả" }
-    ]
-  },
-  {
-    question: "Chọn format quay:",
-    header: "Format",
-    options: [chỉ format hợp lệ theo bảng VJ × Workflow]
-  }
-]
-```
-
-⛔ Chờ kết quả — user nhập nội dung vào "Other" và chọn format, submit 1 lần.
-```
-
-⛔ Chờ kết quả. KHÔNG tự đoán.
+⛔ Sau khi nhận đủ 4 kết quả → validate combo VJ × Workflow × Format → lưu working memory → chạy PHASE 0.
 
 ---
 
