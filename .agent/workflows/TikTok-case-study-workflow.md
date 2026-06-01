@@ -72,6 +72,22 @@ Xác định ngay từ đầu user có B-roll sẵn hay không để agent chọ
 
 → GỌI: `[global skill]` của anh Thế Anh để xử lý, chuẩn hóa file dữ liệu đầu vào (đọc file raw)
 
+> ⛔ **ẨN DANH BẮT BUỘC — NGAY TẠI BƯỚC NÀY, TRƯỚC KHI LƯU VÀO WORKING MEMORY**
+>
+> Sau khi đọc xong file raw, áp dụng bảng thay thế sau **trước khi** truyền bất kỳ thông tin nào vào 4F hay các phase sau:
+>
+> | Thông tin gốc | Thay thế bằng |
+> |---|---|
+> | Tên khách hàng (anh/chị X) | Nghề nghiệp + tỉnh thành → *"anh chủ vựa mít ở Cần Thơ"*, *"chị giáo viên ở Hải Dương"* |
+> | Địa chỉ nhà cụ thể | Tỉnh/thành/khu vực → *"khu vực Tam Hoà, Đà Nẵng"* |
+> | Số CCCD / hộ chiếu | Ẩn hoàn toàn — không ghi vào bất kỳ đâu |
+> | Số điện thoại | Ẩn hoàn toàn |
+> | Số hợp đồng vay | Ẩn hoàn toàn |
+> | Tên ngân hàng cán bộ cụ thể | *"cán bộ ngân hàng X"* hoặc ẩn |
+>
+> ✅ Toàn bộ working memory từ Phase 1 trở đi chỉ chứa thông tin đã ẩn danh.
+> ⛔ Tên thật KH KHÔNG ĐƯỢC xuất hiện ở bất kỳ phase nào — kể cả Phase 3 story arc, Phase 5 hook, Phase 6 body.
+
 → GỌI: `[4F - analyzer]` - Phân tích hồ sơ theo khung 4F:
 
 - **Facts:** Số liệu vay, Các vấn đề ảnh hưởng đến khoản vay (độ tuổi, tài sản, nguồn thu, dòng tiền, CIC, định giá,...)
