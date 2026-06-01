@@ -31,6 +31,33 @@ usage: Đọc file này TRƯỚC KHI viết bất kỳ dòng nào. Bước đầ
 
 ## A. BLUEPRINT FORMAT
 
+> 🎭 **Flow Intent — đọc trước khi nhìn vào bất kỳ skeleton nào:**
+> An Bình kể chuyện như người trong nghề đang nói thật với khách hàng — không hứa hão, không che giấu giới hạn. Mỗi case là bằng chứng, không phải quảng cáo.
+> Câu đầu throw thẳng vào tình huống hoặc kết quả bất ngờ — không giới thiệu, không chào.
+> **Thông tin về khách xuất hiện qua mạch kể, không phải qua checklist 5 trường.**
+> **Barrier được frame là vấn đề hệ thống — không phải lỗi của khách.**
+> **Mỗi câu tiếp theo là phản ứng tự nhiên với câu trước — không phải ô tiếp theo trong skeleton.**
+> Skeleton bên dưới là MAP cảm xúc — không phải form cần điền đủ.
+
+### A_NEW. Narrative Thread — Cách câu dẫn vào nhau
+
+> **Đây là thứ quan trọng nhất.**
+
+**A1 — Case success:**
+Câu 1: số tiền + vấn đề cụ thể — throw thẳng, không dẫn dắt.
+Câu 2: phản ứng người nghe (*"Nghe thì đơn giản..."* / *"Hồ sơ này tưởng dễ..."*) — KHÔNG giải thích câu 1.
+Câu setup: thông tin khách được tiết lộ dần qua mạch cảm xúc — không liệt kê 5 trường.
+Câu barrier: frame là systemic problem — *"không phải khách sai, mà là..."*
+Câu approach: An Bình làm gì — mô tả hành động cụ thể, không phải công thức.
+Câu result: số trước → số sau — người nghe tự thấy sự thay đổi, An Bình không cần nói "đây là kết quả".
+CTA: mời, không ép — *"nếu anh chị đang gặp tình huống tương tự..."*
+
+**A3 — Limitation:**
+Câu setup: build kỳ vọng cao trước — hồ sơ trông ổn.
+Câu discovery: lật ngược — lý do cụ thể không thể giải.
+Câu lesson: bài học, không phán xét.
+Câu honest close: *"An Bình nói thật"* — tạo trust thay vì mất trust.
+
 ### A1. Skeleton theo sub-type
 
 **A1 — Case success (13/13):**

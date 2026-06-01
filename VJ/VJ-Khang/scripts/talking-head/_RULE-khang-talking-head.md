@@ -28,6 +28,35 @@ Khang Talking Head **KHÔNG đồng nhất** như Thuỷ Talking Head (100% case
 
 ## A. BLUEPRINT FORMAT
 
+> 🎭 **Flow Intent — đọc trước khi nhìn vào bất kỳ cấu trúc nào:**
+>
+> **Type A (Case Study):** Khang kể như đang nhớ lại 1 ca khó — bắt đầu từ con số bất ngờ, rồi kể lại nguyên nhân. Tension tăng dần qua từng lớp rào cản, đỉnh điểm là lúc Khang "thay đổi con số". Không phải kể từ đầu đến cuối — mà là dẫn người xem qua đúng cảm xúc Khang từng trải.
+>
+> **Type B (Market/Edu):** Khang phân tích như người vừa đọc xong tin tức và muốn giải thích cho bạn bè hiểu — không phải đọc báo, mà là *"để em Khang kể đầu đuôi cho anh chị nghe tại sao nó lại như vậy"*. Góc nhìn cá nhân là bắt buộc — không chỉ tóm tắt tin.
+>
+> **Mỗi câu tiếp theo là phản ứng tự nhiên với câu trước.**
+> Cấu trúc bên dưới là MAP — không phải form điền.
+
+### A_NEW. Narrative Thread — Cách câu dẫn vào nhau
+
+> **Đây là thứ quan trọng nhất.**
+
+**Type A — Case Study:**
+Câu 1: nghịch lý số liệu hoặc tình huống sốc — throw thẳng, không giải thích.
+Câu 2: người nghe phản ứng (*"Nghe có vẻ tốt đúng không ạ?"*) — KHÔNG giải thích câu 1.
+Câu setup: profile khách được tiết lộ qua con số, không qua liệt kê.
+Câu barrier 1 + 2: mỗi lớp rào cản là 1 câu dẫn vào câu tiếp — *"Nhưng mà..."* — tension tăng.
+Câu hành động Khang: thay đổi con số — mô tả hành động cụ thể, không phải công thức.
+Câu result: template 5 yếu tố — nhưng đọc như kết quả được reveal, không phải bảng báo cáo.
+CTA: *"inbox cho em Khang"* gắn với đúng vấn đề vừa kể — không phải CTA generic.
+
+**Type B — Market/Edu:**
+Câu 1: hiện tượng gây tò mò hoặc *"câu trả lời không đơn giản như anh chị đang nghĩ"*.
+Câu 2: *"Để em Khang kể đầu đuôi..."* — chuyển từ hook vào nội dung.
+Câu giải thích: *"Thứ nhất... Thứ hai... Thứ ba..."* — mỗi nguyên nhân kèm số có nguồn.
+Câu góc nhìn Khang: nhận định cá nhân — không phải tóm tắt, phải là *"em Khang dự báo / đề xuất"*.
+Câu kết: lời khuyên bảo vệ người xem + câu hỏi debate — để lại suy nghĩ, không kết luận hộ.
+
 ### A1. Cấu trúc TYPE A — Case Study
 
 ```

@@ -30,6 +30,33 @@ usage: Đọc file này TRƯỚC KHI viết bất kỳ dòng nào. Bước đầ
 
 ## A. BLUEPRINT FORMAT
 
+> 🎭 **Flow Intent — đọc trước khi nhìn vào bất kỳ skeleton nào:**
+> Đạt kể chuyện như đang lái xe và nhớ lại 1 case — tự nhiên, có ngắt nghỉ, có suy nghĩ to. *"ấy"* là dấu hiệu Đạt đang suy nghĩ, không phải filler. *"nhưng mà"* là lúc Đạt chuyển hướng — nhịp chậm lại.
+> Câu đầu throw vào con số hoặc tình huống — không giới thiệu, không chào.
+> **Thông tin được tiết lộ dần theo nhịp suy nghĩ của Đạt — không phải theo thứ tự logic.**
+> **"Cá nhân em Đạt" là ranh giới rõ ràng giữa fact và quan điểm — phải dùng đúng chỗ.**
+> Skeleton bên dưới là MAP cảm xúc — không phải form điền.
+
+### A_NEW. Narrative Thread — Cách câu dẫn vào nhau
+
+> **Đây là thứ quan trọng nhất.**
+
+**A1 — Case success:**
+Câu 1: con số hoặc tình huống gây tò mò — throw thẳng.
+Câu 2: *"ấy"* — Đạt đang nhớ lại, không giải thích ngay.
+Câu setup: thông tin khách được tiết lộ qua nhịp kể tự nhiên, không qua liệt kê.
+Câu barrier: frame là vấn đề có thể giải — không phải kết luận sớm.
+Câu hành động: *"em Đạt đã..."* — hành động cụ thể, không phải công thức.
+Câu result: 3 yếu tố — đọc như reveal, không phải bảng.
+CTA: gắn với đúng vấn đề vừa kể — không generic.
+
+**B — Market/Edu:**
+Câu 1: data point hoặc tin tức gây bất ngờ.
+Câu context: giải thích cơ chế — *"ấy thì nó như này..."*
+Câu *"cá nhân em Đạt"*: chuyển rõ từ fact sang quan điểm — bắt buộc, không bỏ qua.
+Câu forecast: có timeline cụ thể — *"em Đạt dự báo đến Q3..."*
+Câu kết: lời khuyên có tính toán cụ thể, không phải lời khuyên chung.
+
 ### A1. Skeleton theo sub-type
 
 **A1 — Case success:**
