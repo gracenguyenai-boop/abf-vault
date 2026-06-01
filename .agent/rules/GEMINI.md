@@ -85,7 +85,7 @@ Format chip — **chỉ hiện format hợp lệ theo bảng VJ × Workflow:**
 | An Bình | talking-head · tips-nhanh | talking-head · tips-nhanh | talking-head · tips-nhanh |
 | Khang | talking-head · tips-nhanh | talking-head · tips-nhanh · giai-quyet-thuc-dia · selfie · tu-van-hoi-thoai | — |
 | Thuỷ | talking-head · tips-nhanh | talking-head · tips-nhanh · dong-vai | — |
-| Đặt | talking-head · tips-nhanh | talking-head · tips-nhanh · trong-xe-o-to · nghe-dien-thoai · cam-giay-to | — |
+| Đạt | talking-head · tips-nhanh | talking-head · tips-nhanh · trong-xe-o-to · nghe-dien-thoai · cam-giay-to | — |
 
 ```
 [Dòng hỏi nội dung theo workflow] ↓
