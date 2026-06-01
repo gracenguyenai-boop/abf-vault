@@ -342,7 +342,9 @@ Chấm điểm 3 phiên bản hook theo framework SUCCESS (Chip & Dan Heath). Đ
 2. **[FORMAT RULE]** từ Bước 2.5 — quy tắc cấu trúc body, CTA, title của format
 3. **[EXAMPLE SCRIPTS] + [EXAMPLE ANALYSIS]** từ Bước 2.5/2.6 — nhại cấu trúc, độ dài, từ đặc trưng; tránh pattern trong ④ "Điều KHÔNG có"
 
-> ⚠️ Trước khi gọi bất kỳ skill nào: đọc `[EXAMPLE ANALYSIS]` ①②③④ — dùng làm constraint cho toàn bộ phase này.
+> ⚠️ Trước khi gọi bất kỳ skill nào: đọc `[EXAMPLE ANALYSIS]` ①②③④⑤⑥ — dùng làm constraint cho toàn bộ phase này.
+> - ⑤ Cách câu kết nối: **mỗi câu phải là phản ứng cảm xúc tự nhiên với câu trước** — không liệt kê thông tin độc lập
+> - ⑥ Hành trình cảm xúc: **viết theo cung bậc cảm xúc từ examples** — không viết theo checklist cấu trúc
 
 ### Skills
 
@@ -518,8 +520,10 @@ SIMILARITY SCORE
 ② Độ dài      : [X/10] — tổng từ số có nằm trong ±20% so với độ dài trung bình examples?
 ③ Từ đặc trưng: [X/10] — có dùng ≥3 cụm từ từ [EXAMPLE ANALYSIS]③? Liệt kê các cụm đã dùng.
 ④ Không có    : [X/10] — có còn pattern nào trong [EXAMPLE ANALYSIS]④ sót lại không?
+⑤ Kết nối câu : [X/10] — mỗi câu trong body có phải là phản ứng cảm xúc với câu trước không, hay đang liệt kê thông tin độc lập?
+⑥ Cảm xúc arc : [X/10] — hành trình cảm xúc có khớp với [EXAMPLE ANALYSIS]⑥ không? (tò mò → nhận ra → muốn làm gì đó)
 
-TỔNG: [X/40] = [X%]
+TỔNG: [X/60] = [X%]
 → ≥ 75%: PASS  |  < 75%: ghi rõ tiêu chí nào thấp nhất → sửa đúng chỗ đó → chạy lại similarity score
 ```
 

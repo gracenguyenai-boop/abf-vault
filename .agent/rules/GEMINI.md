@@ -248,7 +248,7 @@ Ví dụ: VJ = Khang + format = talking-head → `VJ/VJ-Khang/scripts/talking-he
 
 Chạy ngay sau Bước 2.5. Không cần gọi skill — GEMINI tự phân tích `[EXAMPLE SCRIPTS]` đã load.
 
-Đọc toàn bộ `[EXAMPLE SCRIPTS]` và extract 4 pattern sau, output trực tiếp vào working memory nhãn `[EXAMPLE ANALYSIS]`:
+Đọc toàn bộ `[EXAMPLE SCRIPTS]` và extract 6 pattern sau, output trực tiếp vào working memory nhãn `[EXAMPLE ANALYSIS]`:
 
 ```
 [EXAMPLE ANALYSIS]
@@ -256,7 +256,14 @@ Chạy ngay sau Bước 2.5. Không cần gọi skill — GEMINI tự phân tíc
 ② Cấu trúc phổ biến: [mô tả 1-2 câu — ví dụ: "Hook = số liệu sốc + câu hỏi, Body = 3 điểm đánh số, CTA = câu hỏi thảo luận"]
 ③ Từ/cụm đặc trưng : [liệt kê 5-8 cụm hay xuất hiện — ví dụ: "nói thật nhé / anh chị ơi / mình vừa / thật ra / đừng chờ"]
 ④ Điều KHÔNG có     : [liệt kê pattern AI thường dùng nhưng không thấy trong examples — ví dụ: "không có 'hãy cùng khám phá', không có câu kết tổng kết dài"]
+⑤ Cách câu kết nối  : [mô tả cơ chế dẫn dắt giữa các câu — KHÔNG phải liệt kê cấu trúc mà mô tả logic cảm xúc:
+   ví dụ: "Câu 1 throw người xem vào tình huống → Câu 2 là cảm xúc/phản ứng tự nhiên của người xem trước tình huống đó → Câu 3 lật ngược hoặc đào sâu hơn → không có câu nào giải thích lại câu trước"]
+⑥ Hành trình cảm xúc: [mô tả cung bậc cảm xúc từ đầu đến cuối script — ví dụ:
+   "Mở = bất ngờ/tò mò → Giữa = nhận ra mình đang/đã mắc lỗi này → Đỉnh = khoảnh khắc 'ồ ra là vậy' → Cuối = muốn làm gì đó ngay"]
 ```
+
+> ⚠️ ⑤ và ⑥ là 2 pattern quan trọng nhất — dùng để viết câu tiếp theo dựa trên cảm xúc câu trước, không phải dựa trên checklist cấu trúc.
+> Khi viết body: mỗi câu phải là **phản ứng cảm xúc tự nhiên** với câu trước — không liệt kê thông tin độc lập.
 
 ⏱️ Tối đa 60 giây. Nếu < 3 examples → ghi `[Không đủ mẫu để phân tích]`, tiếp tục.
 → `[EXAMPLE ANALYSIS]` là input bắt buộc cho bước viết kịch bản — truyền nguyên vào phase script writing.
