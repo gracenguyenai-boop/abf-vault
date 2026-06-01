@@ -218,4 +218,29 @@ File raw vào → INTENT synthesis → Branch match (JD-based) → Type match
 ```
 
 **VJ Templates:** `VJ/_templates/_template-{concept,story,insight,perspective,framework,strategy,quote}.md`
+
+---
+
+## Skills — TikTok Script Workflow
+
+> ⚠️ Khi workflow gọi `[skill-name]` → fetch đúng file skill dưới đây bằng [crawler]/WebFetch.
+> KHÔNG tự diễn giải skill — phải đọc file trước khi thực thi.
+
+### Skill paths (Base: `https://raw.githubusercontent.com/gracenguyenai-boop/abf-vault/main/`)
+
+| Skill gọi trong workflow | Path file | Dùng khi |
+|---|---|---|
+| `[tiktok-script-skill]` | `.agent/skills/tiktok-script-skill.md` | ĐỌC TRƯỚC KHI VIẾT BẤT KỲ SCRIPT NÀO — chứa 6 nguyên tắc bất biến + hard constraint hook ≤10 từ |
+| `[success-framework-scorer]` | `.agent/skills/success-framework-scorer.md` | Chấm điểm hook theo SUCCESS — gọi sau hook-writer |
+| `[hook-writer]` | `.agent/skills/tiktok-script-skill.md` | Viết hook — đọc L3 section "6 Kiểu Hook Chuẩn" trong tiktok-script-skill |
+| `[human-voice-writer]` | `.agent/skills/tiktok-script-skill.md` | Chuyển văn viết → văn nói — đọc L2 "Nguyên Tắc Bất Biến" |
+| `[body-writer]` | `.agent/skills/tiktok-script-skill.md` | Viết body — đọc L3 "Đặc Thù Từng Trụ Cột" |
+| `[cta-writer]` | `.agent/skills/tiktok-script-skill.md` | Viết CTA — đọc L2 "CTA 3 Tầng" |
+
+> **Thứ tự bắt buộc khi viết script:**
+> 1. Fetch `tiktok-script-skill.md` → đọc toàn bộ
+> 2. Fetch `_RULE-[vj]-[format].md` của kênh → đọc toàn bộ
+> 3. Viết hook → đếm từ (≤10 từ) → fetch `success-framework-scorer.md` → chấm điểm
+> 4. Chỉ tiếp tục nếu hook đạt ≥4/6 SUCCESS
+> 5. Viết body + CTA theo đúng _RULE của kênh
 Dùng cho cả VJ và Shared (thay đổi YAML `branch` tương ứng).
