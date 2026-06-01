@@ -39,7 +39,7 @@ questions: [
       { label: "An Bình Vay Vốn", description: "VJ An Bình" },
       { label: "Khang Vay Hay",   description: "VJ Khang"   },
       { label: "Thuỷ Vay Vốn",    description: "VJ Thuỷ"    },
-      { label: "Đặt Vay Đơn Giản",description: "VJ Đặt"     }
+      { label: "Đạt Vay Đơn Giản",description: "VJ Đạt"     }
     ]
   },
   {

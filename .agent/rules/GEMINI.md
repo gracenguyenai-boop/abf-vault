@@ -56,7 +56,7 @@ Chọn kênh:
   ║ An Bình Vay Vốn  ║  ║ Khang Vay Hay    ║
   ╚══════════════════╝  ╚══════════════════╝
   ╔══════════════════╗  ╔══════════════════╗
-  ║ Thuỷ Vay Vốn     ║  ║ Đặt Vay Đơn Giản ║
+  ║ Thuỷ Vay Vốn     ║  ║ Đạt Vay Đơn Giản ║
   ╚══════════════════╝  ╚══════════════════╝
 
 Chọn workflow:
@@ -205,7 +205,7 @@ scripts/
 | A — An Bình Vay Vốn | `VJ-AnBinh` |
 | B — Khang Vay Hay | `VJ-Khang` |
 | C — Thuỷ Vay Vốn | `VJ-Thuy` |
-| D — Đặt Vay Đơn Giản | `VJ-Dat` |
+| D — Đạt Vay Đơn Giản | `VJ-Dat` |
 
 **Bước 2 — Lọc theo format trong VJ đó:**
 
