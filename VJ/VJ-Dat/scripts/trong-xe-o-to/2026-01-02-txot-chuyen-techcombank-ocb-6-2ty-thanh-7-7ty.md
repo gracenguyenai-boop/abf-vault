@@ -43,7 +43,7 @@ related:
 
 ---
 
-Tuy nhiên điều đáng nói ở đây — mức lãi suất cũ 14,5% tại Techcombank sẽ được giảm cực kỳ mạnh, rơi xuống chỉ còn 7,1% tại OCB. Điều này giúp anh chị tiết kiệm tới hơn **1,4 tỷ trong 3 năm đầu**. Vừa được vay thêm, lại còn được giảm lãi — chưa kể còn được ân hạn gốc trong vòng 2 năm đầu nữa.
+Tuy nhiên điều đáng nói ở đây — mức lãi suất cũ 14,5% tại techcombank sẽ được giảm cực kỳ mạnh, rơi xuống chỉ còn 7,1% tại OCB. Điều này giúp. Anh chị tiết kiệm tới hơn **1,4 tỷ trong 3 năm đầu**. Vừa được vay thêm, lại còn được giảm lãi — chưa kể còn được ân hạn gốc trong vòng 2 năm đầu nữa.
 
 ---
 

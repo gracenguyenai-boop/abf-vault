@@ -192,7 +192,20 @@ def process_folder(folder_path: str):
 def main():
     # Bắt đầu với Thuỷ TH
     targets = [
-        'VJ/VJ-Thuy/scripts/talking-head',
+        'VJ/VJ-AnBinh/scripts/talking-head',
+        'VJ/VJ-AnBinh/scripts/tips-nhanh',
+        'VJ/VJ-Khang/scripts/talking-head',
+        'VJ/VJ-Khang/scripts/tips-nhanh',
+        'VJ/VJ-Khang/scripts/giai-quyet-thuc-dia',
+        'VJ/VJ-Khang/scripts/selfie',
+        'VJ/VJ-Khang/scripts/tu-van-hoi-thoai',
+        'VJ/VJ-Dat/scripts/talking-head',
+        'VJ/VJ-Dat/scripts/tips-nhanh',
+        'VJ/VJ-Dat/scripts/trong-xe-o-to',
+        'VJ/VJ-Dat/scripts/nghe-dien-thoai',
+        'VJ/VJ-Dat/scripts/cam-giay-to',
+        'VJ/VJ-Thuy/scripts/tips-nhanh',
+        'VJ/VJ-Thuy/scripts/dong-vai',
     ]
 
     total = {'formatted': 0, 'skip': 0, 'already': 0, 'error': 0}

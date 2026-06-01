@@ -25,18 +25,16 @@ related:
 
 ---
 
-Em Khang vừa xuống Hải Dương thẩm định chị khách làm giáo viên, nhu cầu vay 6 tỷ mở trung tâm dạy tiếng Anh — nhưng ngân hàng ở tỉnh không dám cho vay.
+Em khang vừa xuống hải dương thẩm định chị khách làm giáo viên, nhu cầu vay 6 tỷ mở trung tâm dạy tiếng anh —. Nhưng ngân hàng ở tỉnh không dám cho vay.
 
 Bị cắt đủ đường: không được dạy thêm tại nhà nữa → toàn bộ thu nhập chỉ vỏn vẹn 20 triệu với nghề giáo viên cấp 2. Với mức lương này còn khó vay 1 tỷ chứ đừng nói 6 tỷ. Chồng là công an xã lương 15 triệu, không giúp ích được mấy.
 
-Ngân hàng không cho vay vì chưa có kinh nghiệm quản lý số vốn đầu tư lớn. Lại khó thêm: nhà thế chấp ở Ecopark giá thị trường 9 tỷ nhưng VP, HD, BIDV chỉ định giá được 7 tỷ.
+Ngân hàng không cho vay vì chưa có kinh nghiệm quản lý số vốn đầu tư lớn. Lại khó thêm: nhà thế chấp ở ecopark giá thị trường 9 tỷ. Nhưng VP, HD, BIDV chỉ định giá được 7 tỷ.
 
-Em Khang đến tận nhà hỗ trợ 2 vấn đề:
+Em khang đến tận nhà hỗ trợ 2 vấn đề:
 
 Hỗ trợ chứng minh nguồn thu
-Nhờ công ty định giá thứ 3 → định giá theo giá thị trường được 8.5 tỷ → đủ nhu cầu vay 6 tỷ
-
-Kết quả: Lãi suất 7.5% cố định 1 năm, thời hạn 25 năm, ân hạn gốc 24 tháng — rất phù hợp giai đoạn đầu triển khai trung tâm.
+Nhờ công ty định giá thứ 3 → định giá theo giá thị trường được 8.5 tỷ → đủ nhu cầu vay 6 tỷ. Kết quả: lãi suất 7.5% cố định 1 năm, thời hạn 25 năm, ân hạn gốc 24 tháng — rất phù hợp giai đoạn đầu triển khai trung tâm.
 
 ---
 

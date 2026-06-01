@@ -26,23 +26,23 @@ related:
 
 6,5%
 
-một con số khiến cả tín chơi nức sôn xao khi AgriBank tung ra một gói tín dụng cực kỳ đặc biệt này.
+Một con số khiến cả tín chơi nức sôn xao khi agribank tung ra một gói tín dụng cực kỳ đặc biệt này.
 
-Đây là gói vay tín dụng đặc biệt ưu đãi dành cho các anh chị kinh doanh có thời gian xoay vòng vốn nhanh.
+Đây là gói vay tín dụng đặc biệt ưu đãi dành cho các. Anh chị kinh doanh có thời gian xoay vòng vốn nhanh.
 
-cực kỳ tiết kiệm chi phí.
+Cực kỳ tiết kiệm chi phí.
 
-Ngay cả khi anh chị đi mượn ngân hàng 1 tỷ, dùng full 1 tỷ trong một tháng thì số tiền phải trả chỉ là 5 triệu đồng.
+Ngay cả khi. Anh chị đi mượn ngân hàng 1 tỷ, dùng full 1 tỷ trong một tháng thì số tiền phải trả chỉ là 5 triệu đồng.
 
 2 tỷ là 10 triệu, mà 5 tỷ là 25 triệu đồng tiền lãi.
 
-Cái điểm nổi bật của gói vay này ấy là khi tiền vào tài khoản của anh chị, anh chị dùng tiền này ngày nào thì bắt đầu mới tính lãi ngày đấy.
+Cái điểm nổi bật của gói vay này ấy là khi tiền vào tài khoản của. Anh chị, anh chị dùng tiền này ngày nào thì bắt đầu mới tính lãi ngày đấy.
 
 Còn nếu vay trong ngày và rút tiền trong buổi sáng, đến buổi chiều tối bắn vào trước ấy thì sẽ không mất bất kỳ một đồng chi phí nào.
 
 Tính ra ấy dùng 1 tỷ trong ba ngày ấy, đôi lúc chỉ mất đến 490.000 tiền lãi.
 
-Nếu anh chị quan tâm đến gói vay này của AgriBank, hãy để lại bình luận dưới cho em là để em làm có thể hỗ trợ, tư vấn cho anh chị nhé.
+Nếu. Anh chị quan tâm đến gói vay này của agribank, hãy để lại bình luận dưới cho em là để em làm có thể hỗ trợ, tư vấn cho. Anh chị nhé.
 
 ---
 

@@ -29,15 +29,15 @@ Chính thức đã có gói vay mới, duyệt 70% giá trị tài sản mà tà
 
 Nghĩa là tài sản 10 tỷ, duyệt vay ngay 7 tỷ đồng.
 
-Điểm nóng nói ở đây là sao? Không còn bị bó hẹp bởi vị trí, dù đất khu vực xa trung tâm trước đây khó vay, mà giờ ấy vẫn có thể xem xét để hỗ trợ vay anh chị nha. Đường vào đất chỉ cần tre, cây gỗ, chỉ cần rộng từ 1 mét rưỡi trở lên là được chấp thuận.
+Điểm nóng nói ở đây là sao? Không còn bị bó hẹp bởi vị trí, dù đất khu vực xa trung tâm trước đây khó vay, mà giờ ấy vẫn có thể xem xét để hỗ trợ vay. Anh chị nha. Đường vào đất chỉ cần tre, cây gỗ, chỉ cần rộng từ 1 mét rưỡi trở lên là được chấp thuận.
 
 Ngay trước ấy, các loại đất này ấy ngân hàng thường cực kỳ kén, chỉ cho vay 40 đến 50% giá trị tài sản. Mà còn phải định giá theo khung đất của nhà nước nữa.
 
-Đặc biệt là ấy, anh chị đang vay tại ngân hàng khác, đủ khoản vay thì còn được hỗ trợ giảm ngay 1% lãi suất đó anh chị ạ.
+Đặc biệt là ấy, anh chị đang vay tại ngân hàng khác, đủ khoản vay thì còn được hỗ trợ giảm ngay 1% lãi suất đó. Anh chị ạ.
 
-Với sự hợp tác chiến lược cùng với ngân hàng VPBank, em Đạt hỗ trợ xử lý khoản vay hạn mức cao lên đến 20 tỷ đồng.
+Với sự hợp tác chiến lược cùng với ngân hàng VPBank, em đạt hỗ trợ xử lý khoản vay hạn mức cao lên đến 20 tỷ đồng.
 
-Điều kiện là sao? Anh chị nào đã hoặc là đang vay tại các tổ chức tín dụng khác, với mục đích là vay sản xuất kinh doanh, thuộc ngành nông nghiệp thủy sản là được chiết khấu ngay anh chị nhé.
+Điều kiện là sao? Anh chị nào đã hoặc là đang vay tại các tổ chức tín dụng khác, với mục đích là vay sản xuất kinh doanh, thuộc ngành nông nghiệp thủy sản là được chiết khấu ngay. Anh chị nhé.
 
 ---
 

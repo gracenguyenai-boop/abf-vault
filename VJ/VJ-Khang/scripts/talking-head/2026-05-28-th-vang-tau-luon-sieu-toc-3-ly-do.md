@@ -23,7 +23,13 @@ related:
 
 ---
 
-Vàng bạc mấy ngày hôm qua đúng kiểu như tàu lượn siêu tốc rồi anh chị ạ. Vừa phá đỉnh lịch sử xong là giảm sốc cả chục triệu một lượng. Ở đây nhá sẽ có ba cái lý do chính như này ạ. Thứ nhất là cú sốc từ Fed, chỉ một tin tức của ông trùm, đô la Mỹ đề cử chủ tịch Fed mới có quan điểm cứng rắn với lại suất. Đồng USD ngay lập tức bật nhanh trở lại, kẻ thù của vàng mạnh lên thì vàng lại giảm xuống rồi. Thứ hai nữa là hiệu ứng chốt lời của những người đi đà. Khi mà đạt giá đỉnh ấy các cá mập bắt đầu xả hàng để thực hiện hóa lợi nhuận. Khi thấy giá hơi giảm ấy thì các nhà đầu tư nhỏ lẻ hoảng sợ cũng bán tháo ra theo, nên tạo ra một cú rơi tự do sốc của thị trường vàng như vậy. Thứ ba nữa là mất đà hỗ trợ kỹ thuật, giá tăng mạnh quá, nhanh quá không kịp tạo ra các vùng đệm giá chắc chắn. Nên là khi sập ấy cũng không có điểm tựa mà cứ thế lao dốc không phanh thôi. Anh em nhớ nhé, vàng bạc vẫn là tài sản trú ẩn tốt, nhưng quan trọng trong giai đoạn nhạy cảm này ấy thì ai đu đỉnh mà không có kiến thức rất dễ ra đảo, chứ chả đùa đâu ạ. Anh em tin giá sẽ hồi lại hay là sẽ sập tiếp, hãy để lại ý kiến comment ở dưới video.
+Vàng bạc mấy ngày hôm qua đúng kiểu như tàu lượn siêu tốc rồi. Anh chị ạ. Vừa phá đỉnh lịch sử xong là giảm sốc cả chục triệu một lượng. Ở đây nhá. Sẽ có ba cái lý do chính như này ạ.
+
+Thứ nhất là cú sốc từ fed, chỉ một tin tức của ông trùm, đô la mỹ đề cử chủ tịch fed mới có quan điểm cứng rắn với lại suất. Đồng USD ngay lập tức bật nhanh trở lại, kẻ thù của vàng mạnh lên thì vàng lại giảm xuống rồi.
+
+Thứ hai nữa là hiệu ứng chốt lời của những người đi đà. Khi mà đạt giá đỉnh ấy các cá mập bắt đầu xả hàng để thực hiện hóa lợi nhuận. Khi thấy giá hơi giảm ấy thì các nhà đầu tư nhỏ lẻ hoảng sợ cũng bán tháo ra theo, nên tạo ra một cú rơi tự do sốc của thị trường vàng như vậy.
+
+Thứ ba nữa là mất đà hỗ trợ kỹ thuật, giá tăng mạnh quá, nhanh quá không kịp tạo ra các vùng đệm giá chắc chắn. Nên là khi sập ấy cũng không có điểm tựa mà cứ thế lao dốc không phanh thôi. Anh em nhớ nhé, vàng bạc vẫn là tài sản trú ẩn tốt, nhưng quan trọng trong giai đoạn nhạy cảm này ấy thì ai đu đỉnh mà không có kiến thức rất dễ ra đảo, chứ chả đùa đâu ạ. Anh em tin giá sẽ hồi lại hay là sẽ sập tiếp, hãy để lại ý kiến comment ở dưới video.
 
 ---
 

@@ -24,17 +24,17 @@ related:
 
 ---
 
-Tư duy ngược của anh này là sao? Vậy 4 tỷ ngân hàng và mỗi tháng phải đóng hơn 30 triệu tiền lãi đây. Có đúng không hả anh chị? Thật ra ấy là cũng gần đúng rồi.
+Tư duy ngược của anh này là sao? Vậy 4 tỷ ngân hàng và mỗi tháng phải đóng hơn 30 triệu tiền lãi đây. Có đúng không hả. Anh chị? Thật ra ấy là cũng gần đúng rồi.
 
-Lãi suất tiết kiệm của năm 2026 ấy sẽ bằng lãi vay của ngân hàng của năm ngoái. Thế nên con số 4,5 tỷ và 5 tỷ là hoàn toàn hợp lý để đạt được mức lãi là 30 triệu đồng. Vì nếu đảo ngược lại ấy, phải gửi kỳ hạn cực kỳ dài thì mới được cái mức lãi trên này anh chị nhé. Trên một năm ấy anh chị ạ.
+Lãi suất tiết kiệm của năm 2026 ấy sẽ bằng lãi vay của ngân hàng của năm ngoái. Thế nên con số 4,5 tỷ và 5 tỷ là hoàn toàn hợp lý để đạt được mức lãi là 30 triệu đồng. Vì nếu đảo ngược lại ấy, phải gửi kỳ hạn cực kỳ dài thì mới được cái mức lãi trên này. Anh chị nhé. Trên một năm ấy. Anh chị ạ.
 
 Với mức gửi tiết kiệm 4 tỷ, hạn mức hiện tại đang là 7,5%, xấp xỉ là 25 triệu trên một tháng.
 
 5 tỷ gửi với mức lãi suất tiết kiệm là 7,5 đến 8%, sẽ dao động từ 30 đến 33 triệu một tháng.
 
-Đồng hành cùng với mức lãi gửi cao là 9% ấy thì đương nhiên lãi suất sẽ vay lên đến 12 đến 13% là chuyện cực kỳ hiển nhiên anh chị nhé.
+Đồng hành cùng với mức lãi gửi cao là 9% ấy thì đương nhiên lãi suất sẽ vay lên đến 12 đến 13% là chuyện cực kỳ hiển nhiên. Anh chị nhé.
 
-Anh chị hãy bình luận lại gửi tiết kiệm năm 2026 nếu muốn lấy lãi gửi tiết kiệm tốt nhất của em Đạt ở thời điểm hiện tại anh chị nhé. Em Đạt sẽ lựa chọn và cập nhật anh chị những cái mức lãi suất gửi tiết kiệm tốt nhất ở các ngân hàng thời điểm hiện tại nha.
+Anh chị hãy bình luận lại gửi tiết kiệm năm 2026 nếu muốn lấy lãi gửi tiết kiệm tốt nhất của em đạt ở thời điểm hiện tại. Anh chị nhé. Em đạt sẽ lựa chọn và cập nhật. Anh chị những cái mức lãi suất gửi tiết kiệm tốt nhất ở các ngân hàng thời điểm hiện tại nha.
 
 ---
 

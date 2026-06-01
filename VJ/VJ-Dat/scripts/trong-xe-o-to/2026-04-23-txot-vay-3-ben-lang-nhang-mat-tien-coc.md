@@ -30,13 +30,13 @@ Anh ơi, em đang muốn bán nhà. Họ mới cọc có 1 tỷ thôi mà đòi 
 
 ---
 
-Em Đạt vừa xem xong hồ sơ bạn khách hàng gửi. Người mua hiện tại chưa có bất kỳ cam kết nào từ ngân hàng là sẽ chắc chắn giải ngân — cụ thể là giải ngân vào tài khoản chủ nhà số tiền 9 tỷ còn lại. Nếu chủ nhà nhẹ dạ cả tin, rất dễ bị lừa — mất nhà chỉ với 1 tỷ đồng.
+Em đạt vừa xem xong hồ sơ bạn khách hàng gửi. Người mua hiện tại chưa có bất kỳ cam kết nào từ ngân hàng là sẽ chắc chắn giải ngân —. Cụ thể là giải ngân vào tài khoản chủ nhà số tiền 9 tỷ còn lại. Nếu chủ nhà nhẹ dạ. Cả tin, rất dễ bị lừa — mất nhà chỉ với 1 tỷ đồng.
 
 Theo đúng quy trình vay 3 bên của ngân hàng:
 
-**Bước 1:** Ngân hàng thẩm định tài sản và người vay, sau đó đưa ra thông báo cho vay và giải ngân phong tỏa toàn bộ cho người bán tài sản. Đến bước này anh chị mới có thể yên tâm.
+**Bước 1:** ngân hàng thẩm định tài sản và người vay, sau đó đưa ra thông báo cho vay và giải ngân phong tỏa toàn bộ cho người bán tài sản. Đến bước này. Anh chị mới có thể yên tâm.
 
-**Bước 2:** Sau khi đã có thông báo giải ngân phong tỏa, lúc này mới bắt đầu làm thủ tục sang tên đổi chủ.
+**Bước 2:** sau khi đã có thông báo giải ngân phong tỏa, lúc này mới bắt đầu làm thủ tục sang tên đổi chủ.
 
 Để tránh trường hợp xấu nhất là mất nhà chỉ với 1 tỷ tiền cọc — kiện tụng sau đó rất rắc rối và tốn kém.
 

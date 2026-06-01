@@ -23,7 +23,11 @@ related:
 
 ---
 
-2026 sẽ có những cái đột phá mới liên quan đến sổ đỏ mà chắc chắn mọi người không nên bỏ qua những thông tin này nhé. Nó sẽ hiểu, mỗi một căn nhà một miếng đất sẽ được cấp một dãy mã số duy nhất, tối đa 40 ký tự. Nó giống như là số căn cước công dân của chúng ta đó. Không ai trùng ai và dựa trên tọa độ, vị trí, mã dự án. Tại sao phải làm như vậy? Theo quy định 357 năm 2025, chỉ chính phủ ra đời để diểm loạn thị trường. Thứ nhất là chống sổ giả. Toàn bộ những cái lý lịch căn nhà từ chủ cũ là ai, giá bán bao nhiêu tại thời điểm đó, hoặc là có nhà đang thế chấp tại bank hay là bất kỳ một cái thông tin gì cả, đều không thể hiện minh bạch. Thứ hai nữa là giao dịch siêu tốc. Anh chị đi công chứng hay vay vốn ngân hàng sẽ không cần photo một sấp giấy tờ dày cộp nữa. Kết nối thẳng với thuế ngân hàng và liên ID. Đặc biệt ấy với những anh chị mà hay đi vay vốn như khách hàng gãm khang ấy thì việc này cực kỳ có lợi. Ngân hàng sẽ khẳng định tài sản nhanh hơn vì có mã định danh và xác nhận tình trạng pháp lý rồi, tài sản sạch, sau vài phút click hoàn thiện hồ sơ vay.
+2026 sẽ có những cái đột phá mới liên quan đến sổ đỏ mà chắc chắn mọi người không nên bỏ qua những thông tin này nhé. Nó sẽ hiểu, mỗi một căn nhà một miếng đất sẽ được cấp một dãy mã số duy nhất, tối đa 40 ký tự. Nó giống như là số căn cước công dân của chúng ta đó. Không ai trùng ai và dựa trên tọa độ, vị trí, mã dự án. Tại sao phải làm như vậy? Theo quy định 357 năm 2025, chỉ chính phủ ra đời để diểm loạn thị trường.
+
+Thứ nhất là chống sổ giả. Toàn bộ những cái lý lịch căn nhà từ chủ cũ là ai, giá bán bao nhiêu tại thời điểm đó, hoặc là có nhà đang thế chấp tại bank hay là bất kỳ một cái thông tin gì cả, đều không thể hiện minh bạch.
+
+Thứ hai nữa là giao dịch siêu tốc. Anh chị đi công chứng hay vay vốn ngân hàng sẽ không cần photo một sấp giấy tờ dày cộp nữa. Kết nối thẳng với thuế ngân hàng và liên ID. Đặc biệt ấy với những. Anh chị mà hay đi vay vốn như khách hàng gãm khang ấy thì việc này cực kỳ có lợi. Ngân hàng sẽ khẳng định tài sản nhanh hơn vì có mã định danh và xác nhận tình trạng pháp lý rồi, tài sản sạch, sau vài phút click hoàn thiện hồ sơ vay.
 
 ---
 

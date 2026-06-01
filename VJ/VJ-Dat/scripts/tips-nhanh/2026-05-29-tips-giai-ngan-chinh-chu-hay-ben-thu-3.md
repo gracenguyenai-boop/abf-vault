@@ -28,9 +28,9 @@ related:
 
 Chỉ có 2 hình thức giải ngân:
 
-**Thứ nhất** — giải ngân cho chính anh chị: áp dụng với mục đích hoàn vốn xây sửa nhà, tài khoản thấu chi, hoặc các mục đích giải ngân cho khách hàng trực tiếp.
+**Thứ nhất** — giải ngân cho chính. Anh chị: áp dụng với mục đích hoàn vốn xây sửa nhà, tài khoản thấu chi, hoặc các mục đích giải ngân cho khách hàng trực tiếp.
 
-**Thứ hai** — giải ngân cho bên thứ 3: áp dụng với mua bán nhà, thanh toán tiền nguyên vật liệu, chi phí sản xuất kinh doanh, thanh toán nhà thầu xây sửa, mua trang thiết bị gia đình tiêu dùng. Khi đó ngân hàng chuyển thẳng tiền cho bên bán — anh chị là người vay sẽ không nhận được bất kỳ đồng nào vào tài khoản.
+**Thứ hai** — giải ngân cho bên thứ 3: áp dụng với mua bán nhà, thanh toán tiền nguyên vật liệu, chi phí sản xuất kinh doanh, thanh toán nhà thầu xây sửa, mua trang thiết bị gia đình tiêu dùng. Khi đó ngân hàng chuyển thẳng tiền cho bên bán —. Anh chị là người vay sẽ không nhận được bất kỳ đồng nào vào tài khoản.
 
 ---
 

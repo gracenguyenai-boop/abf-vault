@@ -29,7 +29,7 @@ Nhờ ngân hàng mua nợ 5 tỷ thì mất bao nhiêu tiền?
 
 **Chi phí thứ nhất** — cũng là tốn kém nhất — là phí trả nợ trước hạn của ngân hàng cũ. Khoản phí này thường dao động từ 1 đến 3% tùy ngân hàng. Với khoản vay 5 tỷ, nếu mức phí là 2% thì tính sơ đã là 100 triệu rồi.
 
-**Chi phí thứ hai** là phí môi giới. Nếu anh chị chọn đúng gói vay mua nợ thì sẽ không mất một đồng nào.
+**Chi phí thứ hai** là phí môi giới. Nếu. Anh chị chọn đúng gói vay mua nợ thì sẽ không mất một đồng nào.
 
 **Chi phí thứ ba** là các chi phí cơ bản: định giá, công chứng, đăng ký biến động 2 lần — khoảng 20 triệu cho khoản vay 5 tỷ.
 

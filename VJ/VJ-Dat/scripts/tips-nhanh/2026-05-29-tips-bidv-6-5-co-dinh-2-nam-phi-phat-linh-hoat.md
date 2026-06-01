@@ -26,9 +26,9 @@ related:
 
 Có gói vay nào lãi suất thấp, phí phạt trả nợ nhẹ mà lại dễ được duyệt không?
 
-Có luôn — đây là gói mới của BIDV, Big Four luôn nhé. Lãi chỉ 6,5% cố định trong 2 năm đầu, khá giống gói Agribank. Nhưng điểm lợi thế hơn chính là phí phạt trả nợ trước hạn: rất linh hoạt — từ lãi suất đến khi thanh toán sớm.
+Có luôn — đây là gói mới của BIDV, big four luôn nhé. Lãi chỉ 6,5% cố định trong 2 năm đầu, khá giống gói agribank. Nhưng điểm lợi thế hơn chính là phí phạt trả nợ trước hạn: rất linh hoạt — từ lãi suất đến khi thanh toán sớm.
 
-Điều quan trọng hơn là khẩu vị phê duyệt. Anh chị đang cần vay vốn, hồ sơ khá, tài chính ổn định nhưng khó khăn ở phần chứng minh thu nhập — để lại bình luận, em sẽ tư vấn cụ thể gói này và tính toán sao cho phù hợp khả năng trả nợ của anh chị nhé.
+Điều quan trọng hơn là khẩu vị phê duyệt. Anh chị đang cần vay vốn, hồ sơ khá, tài chính ổn định. Nhưng khó khăn ở phần chứng minh thu nhập — để lại bình luận, em sẽ tư vấn cụ thể gói này và tính toán sao cho phù hợp khả năng trả nợ của. Anh chị nhé.
 
 ---
 

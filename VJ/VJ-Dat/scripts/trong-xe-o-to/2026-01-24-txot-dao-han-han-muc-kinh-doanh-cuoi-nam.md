@@ -25,13 +25,13 @@ related:
 
 ---
 
-Tại sao đi đáo hạn cuối năm lại cực kỳ vất vả và đau đầu — rất nhiều anh chị hỏi em câu này?
+Tại sao đi đáo hạn cuối năm lại cực kỳ vất vả và đau đầu — rất nhiều. Anh chị hỏi em câu này?
 
-Cuối năm các ngân hàng thường tăng lãi suất và gặp tình trạng hết room giải ngân — điều này anh chị làm kinh doanh đều biết rõ.
+Cuối năm các ngân hàng thường tăng lãi suất và gặp tình trạng hết room giải ngân —. Điều này. Anh chị làm kinh doanh đều biết rõ.
 
 Các ngân hàng về cơ bản đã hoàn thành chỉ tiêu giải ngân của năm — nhất là KPI tín dụng. Nên thời điểm này họ không muốn giải ngân, hoặc để hồ sơ cuối năm gối đầu sang đầu năm tiếp theo.
 
-Toàn bộ việc giải ngân đều phụ thuộc vào room tín dụng mà Ngân hàng Nhà nước cấp cho từng ngân hàng theo quy mô. Khi một ngân hàng đã giải ngân hết room, anh chị phải chờ có khách hàng khác tất toán để nhường lại chỗ. Lúc đó là cực kỳ mệt mỏi và bị động.
+Toàn bộ việc giải ngân đều phụ thuộc vào room tín dụng mà ngân hàng nhà nước cấp cho từng ngân hàng theo quy mô. Khi một ngân hàng đã giải ngân hết room, anh chị phải chờ có khách hàng khác tất toán để nhường lại chỗ. Lúc đó là cực kỳ mệt mỏi và bị động.
 
 Và khi cần giải ngân gấp mà room không đủ, ngân hàng sẽ ưu tiên ai trả phí cao hơn, mua bảo hiểm nhiều hơn — người đó được giải ngân trước.
 
