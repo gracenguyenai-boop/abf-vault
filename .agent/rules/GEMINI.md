@@ -219,10 +219,21 @@ VJ/[VJ-folder]/scripts/[format-folder]/
 ```
 Ví dụ: VJ = Khang + format = talking-head → `VJ/VJ-Khang/scripts/talking-head/`
 
-→ Fetch file `_RULE-*` trước — đọc bắt buộc, lưu nhãn `[FORMAT RULE]`.
+→ **Fetch strategy file của VJ trước** — đọc bắt buộc, lưu nhãn `[CHANNEL STRATEGY]`:
+
+| VJ | Path strategy file |
+|---|---|
+| A — An Bình | `VJ/VJ-AnBinh/VJ-01-Atomic/strategy/2026-05-23-dinh-huong-kenh-vay-von-an-binh.md` |
+| B — Khang | `VJ/VJ-Khang/VJ-01-Atomic/strategy/2026-05-24-chan-dung-kenh-khang-bank.md` |
+| C — Thuỷ | `VJ/VJ-Thuy/VJ-01-Atomic/strategy/2026-05-24-chan-dung-kenh-thuy-bank.md` |
+| D — Đạt | `VJ/VJ-Dat/VJ-01-Atomic/strategy/2026-05-23-dinh-huong-kenh-dat-lam-tai-chinh.md` |
+
+`[CHANNEL STRATEGY]` là nguồn định hướng kênh — đọc trước tất cả, dùng làm nền tảng cho toàn bộ quá trình viết.
+
+→ Fetch file `_RULE-*` — đọc bắt buộc, lưu nhãn `[FORMAT RULE]`.
 → Fetch toàn bộ file `.md` còn lại trong folder → đọc frontmatter, lọc theo field `workflow-tags`.
 → Chỉ giữ file có `workflow-tags` chứa giá trị khớp với workflow đang chạy → lưu nhãn `[EXAMPLE SCRIPTS]`.
-→ Output: `📚 Đã load [n] kịch bản mẫu + 1 _RULE — VJ: [X], format: [Y], workflow: [Z].`
+→ Output: `📚 Đã load [CHANNEL STRATEGY] + [n] kịch bản mẫu + 1 _RULE — VJ: [X], format: [Y], workflow: [Z].`
 
 **Bảng mapping workflow → giá trị workflow-tags:**
 

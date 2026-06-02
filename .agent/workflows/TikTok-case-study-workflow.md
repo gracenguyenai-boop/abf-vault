@@ -309,13 +309,15 @@ Bạn đồng ý với bản đồ này không? Muốn thay đổi style hoặc 
 
 Đến cuối phase này, agent phải có 1 Hook đã được kiểm tra độc lập - trước khi viết bất kỳ phần nào của body. Hook là điểm chạm đầu tiên quyết định người xem có dừng lại xem tiếp không.
 
-### Nguồn — 3 thành phần bắt buộc
+### Nguồn — 4 thành phần bắt buộc
 
 1. **CONTEXT FILE** từ Phase 3.5 — toàn bộ 4F + Story Arc + bối cảnh (đọc từ đây, không đọc lại phase cũ)
-2. **[FORMAT RULE]** từ Bước 2.5 — quy tắc viết hook của format được chọn
-3. **[EXAMPLE ANALYSIS]** từ Bước 2.6 — cấu trúc hook, độ dài, từ đặc trưng, điều không có trong examples
+2. **[CHANNEL STRATEGY]** từ Bước 2.5 — định hướng kênh, chân dung khách hàng, tone tổng thể
+3. **[FORMAT RULE]** từ Bước 2.5 — quy tắc viết hook của format được chọn
+4. **[EXAMPLE ANALYSIS]** từ Bước 2.6 — cấu trúc hook, độ dài, từ đặc trưng, điều không có trong examples
 
 > ⚠️ Hook phải nhại đúng cấu trúc hook phổ biến nhất trong `[EXAMPLE ANALYSIS]` ② trước, sau đó mới chấm SUCCESS score.
+> ⚠️ Hook phải phù hợp với định hướng kênh trong `[CHANNEL STRATEGY]` — không viết hook đúng format nhưng sai tone kênh.
 
 ### Skills
 
@@ -355,10 +357,11 @@ Chấm điểm 3 phiên bản hook theo framework SUCCESS (Chip & Dan Heath). Đ
 ### Nguồn — 3 thành phần bắt buộc
 
 1. **CONTEXT FILE** từ Phase 3.5 — nguồn dữ kiện duy nhất, không đọc lại phase cũ
-2. **[FORMAT RULE]** từ Bước 2.5 — quy tắc cấu trúc body, CTA, title của format
-3. **[EXAMPLE SCRIPTS] + [EXAMPLE ANALYSIS]** từ Bước 2.5/2.6 — nhại cấu trúc, độ dài, từ đặc trưng; tránh pattern trong ④ "Điều KHÔNG có"
+2. **[CHANNEL STRATEGY]** từ Bước 2.5 — định hướng kênh, chân dung khách hàng, tone tổng thể
+3. **[FORMAT RULE]** từ Bước 2.5 — quy tắc cấu trúc body, CTA, title của format
+4. **[EXAMPLE SCRIPTS] + [EXAMPLE ANALYSIS]** từ Bước 2.5/2.6 — nhại cấu trúc, độ dài, từ đặc trưng; tránh pattern trong ④ "Điều KHÔNG có"
 
-> ⚠️ Trước khi gọi bất kỳ skill nào: đọc `[EXAMPLE ANALYSIS]` ①②③④⑤⑥ — dùng làm constraint cho toàn bộ phase này.
+> ⚠️ Trước khi gọi bất kỳ skill nào: đọc `[CHANNEL STRATEGY]` + `[EXAMPLE ANALYSIS]` ①②③④⑤⑥ — dùng làm constraint cho toàn bộ phase này.
 > - ⑤ Cách câu kết nối: **mỗi câu phải là phản ứng cảm xúc tự nhiên với câu trước** — không liệt kê thông tin độc lập
 > - ⑥ Hành trình cảm xúc: **viết theo cung bậc cảm xúc từ examples** — không viết theo checklist cấu trúc
 
