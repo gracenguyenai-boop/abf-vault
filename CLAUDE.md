@@ -128,6 +128,15 @@ Fetch MOC:
 https://raw.githubusercontent.com/gracenguyenai-boop/abf-vault/main/MOC-MASTER.md
 ```
 
+Fetch **strategy file của VJ** (đọc trước, lưu `[CHANNEL STRATEGY]`):
+
+| VJ | URL |
+|---|---|
+| An Bình | `https://raw.githubusercontent.com/gracenguyenai-boop/abf-vault/main/VJ/VJ-AnBinh/VJ-01-Atomic/strategy/2026-05-23-dinh-huong-kenh-vay-von-an-binh.md` |
+| Khang | `https://raw.githubusercontent.com/gracenguyenai-boop/abf-vault/main/VJ/VJ-Khang/VJ-01-Atomic/strategy/2026-05-24-chan-dung-kenh-khang-bank.md` |
+| Thuỷ | `https://raw.githubusercontent.com/gracenguyenai-boop/abf-vault/main/VJ/VJ-Thuy/VJ-01-Atomic/strategy/2026-05-24-chan-dung-kenh-thuy-bank.md` |
+| Đạt | `https://raw.githubusercontent.com/gracenguyenai-boop/abf-vault/main/VJ/VJ-Dat/VJ-01-Atomic/strategy/2026-05-23-dinh-huong-kenh-dat-lam-tai-chinh.md` |
+
 Load scripts mẫu theo VJ + format (fetch `_RULE-*` trước, rồi các script `.md` lọc theo `workflow-tags`):
 ```
 https://raw.githubusercontent.com/gracenguyenai-boop/abf-vault/main/VJ/VJ-[tên]/scripts/[format]/
