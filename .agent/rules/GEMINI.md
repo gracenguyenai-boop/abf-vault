@@ -99,6 +99,111 @@ Chọn format quay:
 
 ---
 
+> 📋 **INPUT GUIDE — Chỉ áp dụng khi Workflow = Case Study + VJ chọn dán nội dung**
+>
+> **Flow:**
+> 1. Agent hiển thị note bên dưới TRƯỚC KHI nhận nội dung
+> 2. VJ dán dữ liệu tự do (text, bảng, ghi chú đều được)
+> 3. Agent extract → hiển thị bảng INPUT CHECK → hỏi bổ sung phần còn thiếu
+> 4. Tất cả 🔴 ✅ → chạy PHASE 0
+
+**Note agent hiển thị cho VJ (bước 1):**
+
+```
+📋 CASE STUDY — THÔNG TIN CẦN CÓ
+Dán dữ liệu tự do bên dưới. Mình sẽ tự extract và hỏi phần còn thiếu.
+
+🔴 BẮT BUỘC
+
+[PHÁP LÝ]
+  • Tình trạng sổ: phôi mới/cũ, loại sổ, có tranh chấp không
+  • Đặc điểm pháp lý đặc thù (mộ trên đất, đất nông nghiệp, đất đang thế chấp...)
+
+[TÀI SẢN]
+  • Loại đất / tài sản (ONT, đất lúa, căn hộ, nhà ở...)
+  • Diện tích + địa chỉ khu vực (tỉnh/huyện/xã)
+  • Đặc điểm thực địa ảnh hưởng định giá
+
+[CIC]
+  • Kết quả CIC: sạch / có vấn đề
+  • Nếu có vấn đề: nhóm mấy, bao nhiêu tháng, pattern trễ thế nào
+
+[NHU CẦU VAY & ĐỊNH GIÁ]
+  • KH muốn vay bao nhiêu
+  • Định giá sơ bộ (VAAE hoặc ước tính): bao nhiêu tỷ
+  • LTV dự kiến (%)
+
+[NGUỒN THU]
+  • Nghề nghiệp / ngành nghề kinh doanh
+  • Thu nhập tháng (tổng)
+  • Tỷ lệ tiền mặt / chuyển khoản (VD: 50/50)
+  • Có đăng ký kinh doanh không
+
+[GIẢI PHÁP & KẾT QUẢ]
+  • Giải pháp đã áp dụng — phần ĐƯỢC PHÉP truyền thông
+  • Tên bank giải ngân (hoặc "ngân hàng ABC" nếu cần ẩn)
+  • Mục đích vay (tiêu dùng / xây sửa / kinh doanh...)
+  • Số tiền giải ngân thực tế
+  • Lãi suất + cố định bao nhiêu tháng
+  • Kỳ hạn vay (tháng)
+  • Ân hạn gốc (tháng) ← hay bị bỏ sót
+
+🟡 NÊN CÓ
+
+[BỐI CẢNH & CẢM XÚC]
+  • Tháng/năm nộp hồ sơ · ngày giải ngân
+  • Số nơi đã bị từ chối + lý do từ chối cụ thể
+  • Lý do KH cần vay (mục tiêu kinh doanh, áp lực tài chính, thời điểm cần tiền)
+  • Tâm lý / cảm xúc KH lúc tìm đến
+
+[4F NHẬN ĐỊNH HỒ SƠ] (nếu đã có sẵn)
+  • Facts: số liệu khách quan
+  • Feelings: tâm lý KH + cảm nhận cán bộ xử lý
+  • Findings: điểm mạnh / yếu / vướng mắc
+  • Future: hành động & giải pháp dự kiến
+
+[CHI PHÍ & ĐIỀU KIỆN]
+  • Chi phí phát sinh (công chứng, bảo hiểm, phí dịch vụ...)
+  • Điều kiện hồ sơ thành công (ngân hàng yêu cầu gì thêm)
+
+🚫 KHÔNG ĐƯA VÀO:
+  • Tên thật KH, số CCCD, số điện thoại
+  • Giải pháp KHÔNG được phép truyền thông (che mộ, tác động cán bộ, phí dịch vụ...)
+  • Tên cán bộ ngân hàng cụ thể
+```
+
+**Bảng INPUT CHECK agent hiển thị sau khi extract (bước 3):**
+
+```
+📊 INPUT CHECK
+──────────────────────────────────────────────────
+🔴 BẮT BUỘC           | Trạng thái | Ghi chú
+──────────────────────────────────────────────────
+Pháp lý / sổ          | ✅ / ❌    |
+Tài sản thực địa      | ✅ / ❌    |
+CIC                   | ✅ / ❌    |
+Nhu cầu vay + định giá| ✅ / ❌    |
+Nguồn thu             | ✅ / ⚠️    | VD: thiếu tỷ lệ TM/CK
+Giải pháp (public)    | ✅ / ❌    |
+Kết quả (5 yếu tố)    | ✅ / ⚠️    | VD: thiếu ân hạn gốc
+──────────────────────────────────────────────────
+🟡 NÊN CÓ            | Trạng thái
+──────────────────────────────────────────────────
+Thời điểm vay/g.ngân  | ✅ / ❌
+Nơi bị từ chối        | ✅ / ❌
+Lý do vay / áp lực    | ✅ / ❌
+Tâm lý KH             | ✅ / ❌
+4F (nếu có sẵn)       | ✅ / ❌
+Chi phí + điều kiện   | ✅ / ❌
+```
+
+- 🔴 có ❌ → hỏi từng trường theo thứ tự từ trên xuống, không hỏi tất cả cùng lúc
+- 🔴 có ⚠️ → hỏi bổ sung chi tiết còn thiếu của trường đó
+- 🟡 có ❌ → hỏi gộp 1 lần: *"Còn thiếu [X, Y, Z] — bổ sung được không? Nếu chưa có thì vẫn chạy được, story arc sẽ bớt chiều sâu."*
+- Tất cả 🔴 ✅ → tóm tắt input đã nhận và chạy PHASE 0
+
+---
+
 → Sau khi có đủ 4 bước → lưu working memory:
    `VJ = [X]` | `WORKFLOW = [Y]` | `FORMAT = [Z]` | `INPUT = [W]`
 
@@ -117,6 +222,13 @@ Chọn format quay:
 
 **⚠️ PHASE 0 CÓ 6 BƯỚC. SAU BƯỚC 6 → LOAD WORKFLOW.**
 **⚠️ PHASE 0 LÀ CỦA GEMINI — khi load workflow, BỎ QUA Phase 0 của workflow, bắt đầu từ Phase 1.**
+
+**⛔ QUY TẮC CHẠY PHASE 0 — ĐỌC TRƯỚC KHI BẮT ĐẦU:**
+- Chạy **LIÊN TỤC** từ Bước 0 → Bước 6. KHÔNG dừng giữa chừng để hỏi VJ, KHÔNG chờ xác nhận.
+- Chỉ có **1 điểm dừng hợp lệ duy nhất**: Bước 5 — chờ VJ trả lời rồi tiếp tục ngay Bước 6.
+- **KHÔNG được bỏ qua bất kỳ bước nào**, kể cả khi bước đó khó thực thi.
+- Bước 2.5 là **BẮT BUỘC** — nếu bỏ qua, toàn bộ Phase 0 coi như chưa hoàn thành.
+- Sau mỗi bước: in output ngắn xác nhận hoàn thành, rồi chạy bước tiếp ngay.
 
 **⏱️ TIMEOUT: Mỗi bước tối đa 30 giây.**
 Bước nào quá thời gian → ghi nhận, bỏ qua, sang bước tiếp. KHÔNG retry, KHÔNG loop.
@@ -230,8 +342,19 @@ Ví dụ: VJ = Khang + format = talking-head → `VJ/VJ-Khang/scripts/talking-he
 
 `[CHANNEL STRATEGY]` là nguồn định hướng kênh — đọc trước tất cả, dùng làm nền tảng cho toàn bộ quá trình viết.
 
-→ Fetch file `_RULE-*` — đọc bắt buộc, lưu nhãn `[FORMAT RULE]`.
-→ Fetch toàn bộ file `.md` còn lại trong folder → đọc frontmatter, lọc theo field `workflow-tags`.
+→ **Lấy danh sách file trong folder bằng GitHub Contents API** (bước bắt buộc trước khi fetch bất kỳ script nào):
+```
+GET https://api.github.com/repos/gracenguyenai-boop/abf-vault/contents/VJ/[VJ-folder]/scripts/[format-folder]
+```
+Ví dụ: VJ = Khang + format = talking-head →
+```
+https://api.github.com/repos/gracenguyenai-boop/abf-vault/contents/VJ/VJ-Khang/scripts/talking-head
+```
+→ API trả về JSON array chứa `name` của từng file → dùng danh sách này để fetch raw URL từng file.
+⛔ KHÔNG tự đoán tên file — phải lấy từ API trước.
+
+→ Từ danh sách trả về: fetch file `_RULE-*` trước — đọc bắt buộc, lưu nhãn `[FORMAT RULE]`.
+→ Fetch các file `.md` còn lại (bỏ qua `_RULE-*`) → đọc frontmatter, lọc theo field `workflow-tags`.
 → Chỉ giữ file có `workflow-tags` chứa giá trị khớp với workflow đang chạy → lưu nhãn `[EXAMPLE SCRIPTS]`.
 → Output: `📚 Đã load [CHANNEL STRATEGY] + [n] kịch bản mẫu + 1 _RULE — VJ: [X], format: [Y], workflow: [Z].`
 
@@ -330,12 +453,35 @@ Vấn đề cốt lõi: [1-2 câu]
 
 ### Bước 6 — Load Workflow (BẮT BUỘC)
 
+**⛔ PRE-FLIGHT CHECK — Chạy trước khi load workflow:**
+
+Xác nhận đã hoàn thành đủ 5 bước trước:
+
+```
+✅ PHASE 0 CHECKLIST
+─────────────────────────────────────────────
+Bước 0 — Memory loaded        : ✅ / ⚠️ [ghi nhận nếu fail]
+Bước 1 — Raw input processed  : ✅ / ⚠️
+Bước 2 — Vault search done    : ✅ / ⚠️
+Bước 2.5 — [CHANNEL STRATEGY] : ✅ / ❌ CHƯA CHẠY → DỪNG, chạy lại ngay
+          — [FORMAT RULE]      : ✅ / ❌ CHƯA CHẠY → DỪNG, chạy lại ngay
+          — [EXAMPLE SCRIPTS]  : ✅ ([n] scripts) / ❌ CHƯA CHẠY → DỪNG
+Bước 2.6 — [EXAMPLE ANALYSIS] : ✅ / ❌ CHƯA CHẠY → DỪNG, chạy lại ngay
+Bước 3 — RAW INPUT SUMMARY    : ✅ / ⚠️
+Bước 4 — Frameworks done      : ✅ / ⚠️
+Bước 5 — VJ input collected   : ✅ / ⚠️ bỏ qua
+─────────────────────────────────────────────
+```
+
+> ⛔ Nếu Bước 2.5 hoặc 2.6 có ❌ → KHÔNG load workflow. Chạy lại bước đó ngay, xong mới tiếp tục.
+
 Báo cáo Phase 0:
 ```
 ✅ PHASE 0 XONG.
 📖 Memory: [Session trước: X. Hôm nay: Y.]
 📄 Raw Input: [Tóm tắt vấn đề cốt lõi]
 🗄️ Vault context: [n file liên quan / không có]
+📚 Scripts: [n] mẫu loaded — VJ: [X], format: [Y]
 📊 Frameworks: [tóm tắt 1 dòng]
 → Đang load workflow: [tên workflow]...
 ```
@@ -348,6 +494,12 @@ https://raw.githubusercontent.com/gracenguyenai-boop/abf-vault/main/.agent/workf
 
 # Case Study:
 https://raw.githubusercontent.com/gracenguyenai-boop/abf-vault/main/.agent/workflows/TikTok-case-study-workflow.md
+
+# Kiến Thức Vay Vốn:
+https://raw.githubusercontent.com/gracenguyenai-boop/abf-vault/main/.agent/workflows/Tiktok_Kiến_Thức_Vay_Vốn_KTVV_Workflow.md
+
+# An Bình Là Ai:
+https://raw.githubusercontent.com/gracenguyenai-boop/abf-vault/main/.agent/workflows/Tiktok_An_Binh_La_Ai_ABLA_Workflow.md
 ```
 
 **⛔ SAU KHI LOAD WORKFLOW:**
@@ -371,8 +523,10 @@ Luôn tiếng Việt. Tên file/folder giữ tiếng Anh. Script output theo DNA
 |---|---|
 | News Viral | `…/main/.agent/workflows/TikTok-news-viral-workflow.md` |
 | Case Study | `…/main/.agent/workflows/TikTok-case-study-workflow.md` |
+| Kiến Thức Vay Vốn | `…/main/.agent/workflows/Tiktok_Kiến_Thức_Vay_Vốn_KTVV_Workflow.md` |
+| An Bình Là Ai | `…/main/.agent/workflows/Tiktok_An_Binh_La_Ai_ABLA_Workflow.md` |
 
-Routing: tin tức/news/thời sự → News Viral · case study/hồ sơ/khách hàng → Case Study
+Routing: tin tức/news/thời sự → News Viral · case study/hồ sơ/khách hàng → Case Study · kiến thức tài chính → KTVV · giới thiệu VJ → ABLA
 
 ---
 
